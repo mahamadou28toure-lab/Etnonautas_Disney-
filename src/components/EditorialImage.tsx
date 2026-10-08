@@ -37,16 +37,14 @@ export const EditorialImage: React.FC<EditorialImageProps> = ({
             });
           }}
           onError={(e) => {
-            console.error('❌ ERROR IMAGEN', {
-              src,
-              currentSrc: e.currentTarget.currentSrc,
-              width: e.currentTarget.naturalWidth,
-              height: e.currentTarget.naturalHeight,
-            });
-        
+            console.error('❌ ERROR IMAGEN');
+            console.error('src prop:', src);
+            console.error('currentSrc:', e.currentTarget.currentSrc);
+            console.error('complete:', e.currentTarget.complete);
+            console.error('naturalWidth:', e.currentTarget.naturalWidth);
+            
             setHasError(true);
           }}
-          className={className}
         />
       ) : (
         <div
