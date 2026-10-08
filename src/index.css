@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --color-canvas: #FAFBFD;
+  --color-pastel-blue: #EBF3FC;
+  --color-pastel-blue-deep: #D6E6F9;
+  --color-lavender: #F2EEFA;
+  --color-lavender-deep: #E4DCF5;
+  --color-gold: #C59B52;
+  --color-gold-deep: #96702B;
+  --color-navy: #1E3264;
+  --color-slate-navy: #42506B;
+  --color-logo-pink: #EB539F;
+  --color-logo-navy: #1E3264;
+}
+
+@layer base {
+  html,
+  body {
+    font-family: var(--font-sans);
+    color: #1E3264;
+    background-color: #FAFBFD;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-serif);
+    text-wrap: balance;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@layer components {
+  /* Botón Principal con la forma de cápsula y doble borde (Rosa #EB539F + Blanco + Azul Marino #1E3264) del Logo */
+  .btn-logo-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 9999px;
+    background-color: #1E3264;
+    color: #FFFFFF;
+    border: 2px solid #1E3264;
+    box-shadow: 0 0 0 2px #FFFFFF, 0 0 0 4px #EB539F;
+    transition: transform 150ms cubic-bezier(0.16, 1, 0.3, 1), background-color 150ms ease, color 150ms ease, box-shadow 150ms ease;
+    white-space: nowrap;
+  }
+
+  .btn-logo-primary:hover {
+    background-color: #EB539F;
+    border-color: #EB539F;
+    color: #FFFFFF;
+    box-shadow: 0 0 0 2px #FFFFFF, 0 0 0 4px #1E3264;
+    transform: translateY(-1px);
+  }
+
+  .btn-logo-primary:focus-visible {
+    outline: 2px solid #EB539F;
+    outline-offset: 5px;
+  }
+
+  /* Botón Secundario / Fondo Blanco idéntico al interior del Logo */
+  .btn-logo-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 9999px;
+    background-color: #FFFFFF;
+    color: #1E3264;
+    border: 2px solid #1E3264;
+    box-shadow: 0 0 0 2px #FFFFFF, 0 0 0 4px #EB539F;
+    transition: transform 150ms cubic-bezier(0.16, 1, 0.3, 1), background-color 150ms ease, color 150ms ease, box-shadow 150ms ease;
+    white-space: nowrap;
+  }
+
+  .btn-logo-secondary:hover {
+    background-color: #FDF2F8;
+    color: #EB539F;
+    box-shadow: 0 0 0 2px #FFFFFF, 0 0 0 4.5px #EB539F;
+    transform: translateY(-1px);
+  }
+
+  .btn-logo-secondary:focus-visible {
+    outline: 2px solid #EB539F;
+    outline-offset: 5px;
+  }
+
+  /* Botones de pestañas / selectores interactivos con la misma geometría y colores del logo */
+  .btn-logo-tab {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.375rem;
+    border-radius: 9999px;
+    background-color: #FFFFFF;
+    color: #1E3264;
+    border: 1.5px solid #1E3264;
+    box-shadow: 0 0 0 1.5px #FFFFFF, 0 0 0 3px #EB539F;
+    transition: background-color 150ms ease, color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
+    white-space: nowrap;
+  }
+
+  .btn-logo-tab:hover {
+    background-color: #FDF2F8;
+    color: #EB539F;
+  }
+
+  .btn-logo-tab-active {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.375rem;
+    border-radius: 9999px;
+    background-color: #1E3264;
+    color: #FFFFFF;
+    border: 1.5px solid #1E3264;
+    box-shadow: 0 0 0 1.5px #FFFFFF, 0 0 0 3px #EB539F;
+    transition: background-color 150ms ease, color 150ms ease, box-shadow 150ms ease;
+    white-space: nowrap;
+  }
+}
+
