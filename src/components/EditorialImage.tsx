@@ -28,7 +28,24 @@ export const EditorialImage: React.FC<EditorialImageProps> = ({
           alt={alt}
           referrerPolicy="no-referrer"
           loading={priority ? 'eager' : 'lazy'}
-          onError={() => setHasError(true)}
+          onLoad={(e) => {
+            console.log('✅ IMAGEN CARGADA', {
+              src,
+              currentSrc: e.currentTarget.currentSrc,
+              width: e.currentTarget.naturalWidth,
+              height: e.currentTarget.naturalHeight,
+            });
+          }}
+          onError={(e) => {
+            console.error('❌ ERROR IMAGEN', {
+              src,
+              currentSrc: e.currentTarget.currentSrc,
+              width: e.currentTarget.naturalWidth,
+              height: e.currentTarget.naturalHeight,
+            });
+        
+            setHasError(true);
+          }}
           className={className}
         />
       ) : (
