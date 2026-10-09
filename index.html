@@ -33,6 +33,7 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./styles.css" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -74,9 +75,2122 @@
       }
     </script>
   </head>
-  <body class="bg-[#FAFBFD] text-[#162038] antialiased selection:bg-[#D8E8FA] selection:text-[#162038]">
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+  <body class="bg-[#FAFBFD] text-[#1E3264] antialiased selection:bg-[#D8E8FA] selection:text-[#1E3264]">
+    <div class="min-h-screen flex flex-col bg-[#FAFBFD] text-[#1E3264]">
+      <!-- =====================================================================
+           CABECERA PRINCIPAL Y SUBMENÚ ACCESIBLE
+           ===================================================================== -->
+      <header class="sticky top-0 z-40 w-full bg-[#FAFBFD]/95 backdrop-blur-md border-b border-[#1E3264]/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 md:h-20 flex items-center justify-between gap-4">
+          <!-- Zona 1: Logo Oficial y Nombre de Marca -->
+          <a
+            href="#inicio"
+            data-scroll-to="#inicio"
+            class="inline-flex items-center gap-2.5 sm:gap-3 whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#EB539F]"
+          >
+            <svg
+              width="42"
+              height="42"
+              viewBox="0 0 500 500"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Logo de Paris Magic Plan"
+              class="shrink-0"
+            >
+              <defs>
+                <clipPath id="navLogoClip">
+                  <rect x="131" y="92" width="238" height="316" rx="114" />
+                </clipPath>
+              </defs>
+              <rect x="100" y="62" width="300" height="376" rx="146" fill="#FFFFFF" stroke="#EB539F" stroke-width="12" />
+              <g clip-path="url(#navLogoClip)">
+                <path d="M239 152 L243.5 168.5 L260 173 L243.5 177.5 L239 194 L234.5 177.5 L218 173 L234.5 168.5 Z" fill="#1E3264" stroke="#1E3264" stroke-width="2" stroke-linejoin="round" />
+                <path d="M271 118 L275.2 133.8 L291 138 L275.2 142.2 L271 158 L266.8 142.2 L251 138 L266.8 133.8 Z" fill="#1E3264" stroke="#1E3264" stroke-width="2" stroke-linejoin="round" />
+                <path d="M343 160 L347.2 175.8 L363 180 L347.2 184.2 L343 200 L338.8 184.2 L323 180 L338.8 175.8 Z" fill="#1E3264" stroke="#1E3264" stroke-width="2" stroke-linejoin="round" />
+                <g stroke="#EB539F" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="184" y1="149" x2="184" y2="157" />
+                  <path d="M175 170 C175 156, 193 156, 193 170" />
+                  <line x1="171" y1="170" x2="197" y2="170" />
+                  <path d="M175 170 C172 238, 160 305, 135 362" />
+                  <path d="M193 170 C196 238, 206 302, 223 354" />
+                  <line x1="162" y1="267" x2="206" y2="267" />
+                  <path d="M184 277 L164 342 M184 277 L204 342" />
+                  <path d="M151 372 A33 35 0 0 1 216 372" />
+                </g>
+                <g stroke="#EB539F" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="223" y1="313" x2="223" y2="372" />
+                  <line x1="253" y1="313" x2="253" y2="328" />
+                  <line x1="219" y1="313" x2="257" y2="313" />
+                  <path d="M222 313 Q234 286 238 256 Q242 286 254 313" />
+                  <line x1="253" y1="248" x2="253" y2="313" />
+                  <line x1="280" y1="248" x2="280" y2="265" />
+                  <line x1="250" y1="248" x2="283" y2="248" />
+                  <path d="M252 248 L261 213 L272 213 L281 248" />
+                  <line x1="288" y1="213" x2="288" y2="254" />
+                  <line x1="322" y1="213" x2="322" y2="297" />
+                  <path d="M294 197 L316 197 L325 213 L286 213 Z" />
+                  <line x1="294" y1="147" x2="294" y2="197" />
+                  <line x1="316" y1="147" x2="316" y2="197" />
+                  <line x1="290" y1="147" x2="320" y2="147" />
+                  <path d="M293 147 Q302 125 305 103 Q308 125 317 147" />
+                  <path d="M268 297 L280 256 L292 256 L304 297" />
+                  <line x1="266" y1="297" x2="278" y2="297" />
+                  <line x1="294" y1="297" x2="306" y2="297" />
+                  <ellipse cx="286" cy="297" rx="6.5" ry="11" fill="#FFFFFF" />
+                  <line x1="270" y1="297" x2="270" y2="318" />
+                  <line x1="302" y1="297" x2="302" y2="318" />
+                  <path d="M257 372 C257 344, 270 326, 286 314 C302 326, 316 344, 316 372" />
+                  <path d="M268 372 C268 350, 276 338, 286 330 C296 338, 305 350, 305 372" />
+                  <line x1="321" y1="313" x2="321" y2="340" />
+                  <line x1="351" y1="313" x2="351" y2="372" />
+                  <line x1="317" y1="313" x2="355" y2="313" />
+                  <path d="M320 313 Q332 286 336 256 Q340 286 352 313" />
+                </g>
+                <line x1="135" y1="372" x2="365" y2="372" stroke="#1E3264" stroke-width="8.5" stroke-linecap="round" />
+                <line x1="207" y1="391" x2="293" y2="391" stroke="#1E3264" stroke-width="7.5" stroke-linecap="round" />
+              </g>
+              <rect x="129" y="90" width="242" height="320" rx="116" fill="none" stroke="#1E3264" stroke-width="9" />
+            </svg>
+            <span class="font-serif text-lg sm:text-xl xl:text-2xl font-semibold tracking-tight text-[#1E3264]">
+              Paris Magic Plan
+            </span>
+          </a>
+
+          <!-- Zona 2: Menú Principal Horizontal (Escritorio lg: 1024px+) -->
+          <nav aria-label="Navegación principal" class="hidden lg:flex items-center gap-5 xl:gap-7 text-sm font-normal text-[#42506B]">
+            <div id="desktop-submenu-wrapper" class="relative">
+              <button
+                id="desktop-submenu-btn"
+                type="button"
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="inline-flex items-center gap-1.5 py-2 text-[#1E3264] hover:text-[#EB539F] transition-colors duration-150 whitespace-nowrap border-b border-transparent hover:border-[#EB539F] cursor-pointer"
+              >
+                <span>Servicios</span>
+                <svg id="desktop-submenu-chevron" class="w-3.5 h-3.5 transition-transform duration-150 text-[#42506B]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </button>
+
+              <!-- Submenú desplegable -->
+              <div
+                id="desktop-submenu-panel"
+                role="menu"
+                aria-label="Submenú de servicios y planes"
+                class="hidden absolute left-0 top-full pt-2 w-80 z-50"
+              >
+                <div class="bg-white rounded-2xl border-2 border-[#1E3264] shadow-[0_0_0_2px_#ffffff,0_0_0_4px_#EB539F] p-3 space-y-1">
+                  <div class="px-3 py-1.5 border-b border-[#1E3264]/10">
+                    <p class="text-xs font-semibold text-[#EB539F]">Submenú · Planes y Servicios a Medida</p>
+                  </div>
+                  <button type="button" role="menuitem" data-service-filter="all" data-submenu-nav="true" class="w-full text-left px-3 py-2.5 rounded-xl hover:bg-[#FDF2F8] transition-colors group cursor-pointer">
+                    <div class="text-sm font-semibold text-[#1E3264] group-hover:text-[#EB539F]">Visión General</div>
+                    <div class="text-xs text-[#42506B] line-clamp-1 mt-0.5">Todos los planes y servicios de organización a medida</div>
+                  </button>
+                  <button type="button" role="menuitem" data-service-filter="planes" data-submenu-nav="true" class="w-full text-left px-3 py-2.5 rounded-xl hover:bg-[#FDF2F8] transition-colors group cursor-pointer">
+                    <div class="text-sm font-semibold text-[#1E3264] group-hover:text-[#EB539F]">Planes de Viaje</div>
+                    <div class="text-xs text-[#42506B] line-clamp-1 mt-0.5">Esencial, Magia Completa y Concierge VIP para familias</div>
+                  </button>
+                  <button type="button" role="menuitem" data-service-filter="extras" data-submenu-nav="true" class="w-full text-left px-3 py-2.5 rounded-xl hover:bg-[#FDF2F8] transition-colors group cursor-pointer">
+                    <div class="text-sm font-semibold text-[#1E3264] group-hover:text-[#EB539F]">Servicios a la Carta</div>
+                    <div class="text-xs text-[#42506B] line-clamp-1 mt-0.5">Asesoría express, reservas gastronómicas y extensión a París</div>
+                  </button>
+                  <button type="button" role="menuitem" data-service-filter="comparativa" data-submenu-nav="true" class="w-full text-left px-3 py-2.5 rounded-xl hover:bg-[#FDF2F8] transition-colors group cursor-pointer">
+                    <div class="text-sm font-semibold text-[#1E3264] group-hover:text-[#EB539F]">Tabla Comparativa</div>
+                    <div class="text-xs text-[#42506B] line-clamp-1 mt-0.5">Detalle punto por punto de qué incluye cada modalidad</div>
+                  </button>
+                  <button type="button" role="menuitem" data-service-filter="recomendador" data-submenu-nav="true" class="w-full text-left px-3 py-2.5 rounded-xl hover:bg-[#FDF2F8] transition-colors group cursor-pointer">
+                    <div class="text-sm font-semibold text-[#1E3264] group-hover:text-[#EB539F]">Asistente de Elección</div>
+                    <div class="text-xs text-[#42506B] line-clamp-1 mt-0.5">Descubre qué plan se adapta mejor a tu familia y estancia</div>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <a href="#ventajas" data-scroll-to="#ventajas" class="inline-flex py-2 text-[#42506B] hover:text-[#EB539F] border-b border-transparent hover:border-[#EB539F] transition-colors whitespace-nowrap">Ventajas</a>
+            <a href="#pasos" data-scroll-to="#pasos" class="inline-flex py-2 text-[#42506B] hover:text-[#EB539F] border-b border-transparent hover:border-[#EB539F] transition-colors whitespace-nowrap">Pasos</a>
+            <a href="#opiniones" data-scroll-to="#opiniones" class="inline-flex py-2 text-[#42506B] hover:text-[#EB539F] border-b border-transparent hover:border-[#EB539F] transition-colors whitespace-nowrap">Opiniones</a>
+            <a href="#blog" data-scroll-to="#blog" class="inline-flex py-2 text-[#42506B] hover:text-[#EB539F] border-b border-transparent hover:border-[#EB539F] transition-colors whitespace-nowrap">Blog</a>
+            <a href="#faq" data-scroll-to="#faq" class="hidden xl:inline-flex py-2 text-[#42506B] hover:text-[#EB539F] border-b border-transparent hover:border-[#EB539F] transition-colors whitespace-nowrap">FAQ</a>
+          </nav>
+
+          <!-- Zona 3: Acción Principal y Botón Menú Móvil/Tablet -->
+          <div class="flex items-center gap-3.5 pr-1 shrink-0">
+            <a
+              href="#contacto"
+              data-scroll-to="#contacto"
+              class="hidden sm:inline-flex btn-logo-primary px-5 py-2 text-xs sm:text-sm font-semibold shrink-0"
+            >
+              Planificar mi viaje
+            </a>
+
+            <button
+              id="mobile-menu-btn"
+              type="button"
+              aria-label="Abrir menú de navegación"
+              aria-expanded="false"
+              class="inline-flex lg:hidden btn-logo-secondary w-10 h-10 p-0 shrink-0"
+            >
+              <svg id="mobile-menu-icon-open" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="4" x2="20" y1="12" y2="12" />
+                <line x1="4" x2="20" y1="6" y2="6" />
+                <line x1="4" x2="20" y1="18" y2="18" />
+              </svg>
+              <svg id="mobile-menu-icon-close" class="hidden w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Cajón de Menú Móvil y Tablet -->
+        <div id="mobile-menu-drawer" class="hidden lg:hidden bg-white border-b border-[#1E3264]/10 px-5 pt-3 pb-6 space-y-3 max-h-[82vh] overflow-y-auto shadow-lg">
+          <div class="space-y-1">
+            <div class="border-b border-[#1E3264]/8 pb-2">
+              <button
+                id="mobile-submenu-btn"
+                type="button"
+                aria-expanded="true"
+                class="w-full flex items-center justify-between py-2.5 text-base font-semibold text-[#1E3264]"
+              >
+                <span>Servicios (Submenú)</span>
+                <svg id="mobile-submenu-chevron" class="w-4 h-4 transition-transform rotate-180 text-[#EB539F]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </button>
+              <div id="mobile-submenu-list" class="pl-3 mt-1 space-y-1 border-l-2 border-[#EB539F]">
+                <button type="button" data-service-filter="all" data-submenu-nav="true" class="w-full text-left py-2 px-2 rounded-lg hover:bg-[#FDF2F8]">
+                  <div class="text-sm font-semibold text-[#1E3264]">Visión General</div>
+                  <div class="text-xs text-[#42506B]">Todos los planes y servicios de organización a medida</div>
+                </button>
+                <button type="button" data-service-filter="planes" data-submenu-nav="true" class="w-full text-left py-2 px-2 rounded-lg hover:bg-[#FDF2F8]">
+                  <div class="text-sm font-semibold text-[#1E3264]">Planes de Viaje</div>
+                  <div class="text-xs text-[#42506B]">Esencial, Magia Completa y Concierge VIP para familias</div>
+                </button>
+                <button type="button" data-service-filter="extras" data-submenu-nav="true" class="w-full text-left py-2 px-2 rounded-lg hover:bg-[#FDF2F8]">
+                  <div class="text-sm font-semibold text-[#1E3264]">Servicios a la Carta</div>
+                  <div class="text-xs text-[#42506B]">Asesoría express, reservas gastronómicas y extensión a París</div>
+                </button>
+                <button type="button" data-service-filter="comparativa" data-submenu-nav="true" class="w-full text-left py-2 px-2 rounded-lg hover:bg-[#FDF2F8]">
+                  <div class="text-sm font-semibold text-[#1E3264]">Tabla Comparativa</div>
+                  <div class="text-xs text-[#42506B]">Detalle punto por punto de qué incluye cada modalidad</div>
+                </button>
+                <button type="button" data-service-filter="recomendador" data-submenu-nav="true" class="w-full text-left py-2 px-2 rounded-lg hover:bg-[#FDF2F8]">
+                  <div class="text-sm font-semibold text-[#1E3264]">Asistente de Elección</div>
+                  <div class="text-xs text-[#42506B]">Descubre qué plan se adapta mejor a tu familia y estancia</div>
+                </button>
+              </div>
+            </div>
+
+            <a href="#ventajas" data-scroll-to="#ventajas" class="block py-2.5 text-base text-[#1E3264] hover:text-[#EB539F] border-b border-[#1E3264]/8">Ventajas</a>
+            <a href="#pasos" data-scroll-to="#pasos" class="block py-2.5 text-base text-[#1E3264] hover:text-[#EB539F] border-b border-[#1E3264]/8">Pasos</a>
+            <a href="#opiniones" data-scroll-to="#opiniones" class="block py-2.5 text-base text-[#1E3264] hover:text-[#EB539F] border-b border-[#1E3264]/8">Opiniones</a>
+            <a href="#blog" data-scroll-to="#blog" class="block py-2.5 text-base text-[#1E3264] hover:text-[#EB539F] border-b border-[#1E3264]/8">Blog</a>
+            <a href="#faq" data-scroll-to="#faq" class="block py-2.5 text-base text-[#1E3264] hover:text-[#EB539F] border-b border-[#1E3264]/8">FAQ</a>
+          </div>
+
+          <div class="pt-3 px-1">
+            <a href="#contacto" data-scroll-to="#contacto" class="w-full inline-flex btn-logo-primary px-5 py-3 text-sm font-semibold">
+              Empezar a planificar mi viaje
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <main class="flex-grow">
+        <!-- =====================================================================
+             1. HERO VISUAL DIFERENTE
+             ===================================================================== -->
+        <section
+          id="inicio"
+          class="relative overflow-hidden pt-8 pb-16 md:pt-14 md:pb-24 bg-gradient-to-b from-[#EBF3FC]/65 via-[#FAFBFD] to-[#FAFBFD]"
+        >
+          <div aria-hidden="true" class="pointer-events-none absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-[#EBF3FC] via-[#EB539F]/60 to-[#F2EEFA]"></div>
+
+          <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+            <div class="flex flex-wrap items-center justify-between gap-4 pb-5 mb-7 border-b border-[#1E3264]/10">
+              <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs sm:text-sm text-[#42506B]">
+                <span class="font-semibold text-[#EB539F]">Paris Magic Plan</span>
+                <span aria-hidden="true">·</span>
+                <span>Planificación especializada en Disneyland Paris · Experiencias familiares a medida</span>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+              <!-- Columna Izquierda (5 cols) -->
+              <div class="lg:col-span-5 space-y-6">
+                <div class="inline-flex items-center gap-3.5">
+                  <svg width="74" height="74" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Emblema de Paris Magic Plan" class="shrink-0">
+                    <defs>
+                      <clipPath id="heroLogoClip">
+                        <rect x="131" y="92" width="238" height="316" rx="114" />
+                      </clipPath>
+                    </defs>
+                    <rect x="100" y="62" width="300" height="376" rx="146" fill="#FFFFFF" stroke="#EB539F" stroke-width="12" />
+                    <g clip-path="url(#heroLogoClip)">
+                      <path d="M239 152 L243.5 168.5 L260 173 L243.5 177.5 L239 194 L234.5 177.5 L218 173 L234.5 168.5 Z" fill="#1E3264" stroke="#1E3264" stroke-width="2" stroke-linejoin="round" />
+                      <path d="M271 118 L275.2 133.8 L291 138 L275.2 142.2 L271 158 L266.8 142.2 L251 138 L266.8 133.8 Z" fill="#1E3264" stroke="#1E3264" stroke-width="2" stroke-linejoin="round" />
+                      <path d="M343 160 L347.2 175.8 L363 180 L347.2 184.2 L343 200 L338.8 184.2 L323 180 L338.8 175.8 Z" fill="#1E3264" stroke="#1E3264" stroke-width="2" stroke-linejoin="round" />
+                      <g stroke="#EB539F" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="184" y1="149" x2="184" y2="157" />
+                        <path d="M175 170 C175 156, 193 156, 193 170" />
+                        <line x1="171" y1="170" x2="197" y2="170" />
+                        <path d="M175 170 C172 238, 160 305, 135 362" />
+                        <path d="M193 170 C196 238, 206 302, 223 354" />
+                        <line x1="162" y1="267" x2="206" y2="267" />
+                        <path d="M184 277 L164 342 M184 277 L204 342" />
+                        <path d="M151 372 A33 35 0 0 1 216 372" />
+                      </g>
+                      <g stroke="#EB539F" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="223" y1="313" x2="223" y2="372" />
+                        <line x1="253" y1="313" x2="253" y2="328" />
+                        <line x1="219" y1="313" x2="257" y2="313" />
+                        <path d="M222 313 Q234 286 238 256 Q242 286 254 313" />
+                        <line x1="253" y1="248" x2="253" y2="313" />
+                        <line x1="280" y1="248" x2="280" y2="265" />
+                        <line x1="250" y1="248" x2="283" y2="248" />
+                        <path d="M252 248 L261 213 L272 213 L281 248" />
+                        <line x1="288" y1="213" x2="288" y2="254" />
+                        <line x1="322" y1="213" x2="322" y2="297" />
+                        <path d="M294 197 L316 197 L325 213 L286 213 Z" />
+                        <line x1="294" y1="147" x2="294" y2="197" />
+                        <line x1="316" y1="147" x2="316" y2="197" />
+                        <line x1="290" y1="147" x2="320" y2="147" />
+                        <path d="M293 147 Q302 125 305 103 Q308 125 317 147" />
+                        <path d="M268 297 L280 256 L292 256 L304 297" />
+                        <line x1="266" y1="297" x2="278" y2="297" />
+                        <line x1="294" y1="297" x2="306" y2="297" />
+                        <ellipse cx="286" cy="297" rx="6.5" ry="11" fill="#FFFFFF" />
+                        <line x1="270" y1="297" x2="270" y2="318" />
+                        <line x1="302" y1="297" x2="302" y2="318" />
+                        <path d="M257 372 C257 344, 270 326, 286 314 C302 326, 316 344, 316 372" />
+                        <path d="M268 372 C268 350, 276 338, 286 330 C296 338, 305 350, 305 372" />
+                        <line x1="321" y1="313" x2="321" y2="340" />
+                        <line x1="351" y1="313" x2="351" y2="372" />
+                        <line x1="317" y1="313" x2="355" y2="313" />
+                        <path d="M320 313 Q332 286 336 256 Q340 286 352 313" />
+                      </g>
+                      <line x1="135" y1="372" x2="365" y2="372" stroke="#1E3264" stroke-width="8.5" stroke-linecap="round" />
+                      <line x1="207" y1="391" x2="293" y2="391" stroke="#1E3264" stroke-width="7.5" stroke-linecap="round" />
+                    </g>
+                    <rect x="129" y="90" width="242" height="320" rx="116" fill="none" stroke="#1E3264" stroke-width="9" />
+                  </svg>
+                  <div class="space-y-0.5">
+                    <p class="text-xs font-semibold text-[#EB539F]">París &amp; Disneyland Paris</p>
+                    <p class="font-serif text-lg font-semibold text-[#1E3264]">Diseño de viajes familiares a medida</p>
+                  </div>
+                </div>
+
+                <h1 class="font-serif text-4xl sm:text-5xl lg:text-[54px] font-semibold text-[#1E3264] leading-[1.08] tracking-tight">
+                  La magia de Disneyland Paris, diseñada paso a paso para tu familia
+                </h1>
+
+                <p class="text-base sm:text-lg text-[#42506B] leading-relaxed">
+                  Transformamos la complejidad de organizar un viaje a Disneyland Paris en una experiencia serena, luminosa y sin colas innecesarias. Diseñamos itinerarios personalizados, estrategia de reservas y rutas pensadas para el ritmo real de los tuyos.
+                </p>
+
+                <div class="pt-3 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+                  <button
+                    type="button"
+                    data-scroll-to="#servicios"
+                    class="btn-logo-primary px-7 py-3.5 text-sm font-semibold"
+                  >
+                    <span>Explorar planes y precios</span>
+                    <svg class="w-4 h-4 text-[#EB539F]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
+                    </svg>
+                  </button>
+
+                  <button
+                    type="button"
+                    data-scroll-to="#pasos"
+                    class="btn-logo-secondary px-7 py-3.5 text-sm font-semibold"
+                  >
+                    <span>Descubrir los 4 pasos</span>
+                  </button>
+                </div>
+
+                <div class="pt-4 border-t border-[#1E3264]/10 text-xs text-[#42506B] flex flex-wrap items-center gap-x-2 gap-y-1">
+                  <span class="font-semibold text-[#1E3264]">Atención 100% personalizada</span>
+                  <span aria-hidden="true">·</span>
+                  <span>Rutas adaptadas con niños</span>
+                  <span aria-hidden="true">·</span>
+                  <span>Optimización de tiempos y reservas</span>
+                </div>
+              </div>
+
+              <!-- Columna Derecha: Fotografía Hero (7 cols) -->
+              <div class="lg:col-span-7 space-y-3 px-1 sm:px-0">
+                <div class="relative aspect-[16/10] w-full rounded-3xl sm:rounded-[32px] overflow-hidden bg-[#EBF3FC] border-2 border-[#1E3264] shadow-[0_0_0_2px_#ffffff,0_0_0_5px_#EB539F]">
+                  <img
+                    src="./assets/images/hero_disneyland_family_1791448790088.jpg"
+                    alt="Familia contemplando el Castillo de Disneyland Paris al amanecer entre tonos azul pastel, lavanda y luz dorada"
+                    loading="eager"
+                    referrerpolicy="no-referrer"
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+
+                <div class="px-2 pt-1 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs text-[#42506B]">
+                  <span class="font-serif italic text-sm text-[#1E3264]">
+                    Disneyland Paris · Diseño de itinerarios familiares a medida
+                  </span>
+                  <span class="text-[#EB539F] font-semibold">
+                    Identidad Paris Magic Plan · Experiencias en familia
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Franja de Métricas Clave -->
+            <div class="mt-14 pt-10 border-t border-[#1E3264]/10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div class="sm:border-l first:border-l-0 border-[#EB539F]/40 sm:pl-6 first:pl-0">
+                <div class="font-serif text-3xl sm:text-4xl font-semibold text-[#1E3264] tabular-nums">100%</div>
+                <p class="mt-1.5 text-sm text-[#42506B] leading-snug">Itinerarios a medida según edades y preferencias</p>
+              </div>
+              <div class="sm:border-l border-[#EB539F]/40 sm:pl-6">
+                <div class="font-serif text-3xl sm:text-4xl font-semibold text-[#1E3264] tabular-nums">4 Pasos</div>
+                <p class="mt-1.5 text-sm text-[#42506B] leading-snug">Metodología clara desde la idea hasta el parque</p>
+              </div>
+              <div class="sm:border-l border-[#EB539F]/40 sm:pl-6">
+                <div class="font-serif text-3xl sm:text-4xl font-semibold text-[#1E3264] tabular-nums">-45%</div>
+                <p class="mt-1.5 text-sm text-[#42506B] leading-snug">Reducción estimada en tiempos de espera en colas</p>
+              </div>
+              <div class="sm:border-l border-[#EB539F]/40 sm:pl-6">
+                <div class="font-serif text-3xl sm:text-4xl font-semibold text-[#1E3264] tabular-nums">+500</div>
+                <p class="mt-1.5 text-sm text-[#42506B] leading-snug">Familias acompañadas en su viaje a Disneyland Paris</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =====================================================================
+             2. SECCIÓN LUMINOSA — VENTAJAS (Asymmetric Bento Grid)
+             ===================================================================== -->
+        <section id="ventajas" class="py-20 md:py-28 bg-[#FAFBFD]">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl space-y-4 mb-14">
+              <div class="flex items-center gap-2 text-xs text-[#EB539F] font-semibold">
+                <span>Ventajas Exclusivas</span>
+                <span aria-hidden="true">·</span>
+                <span class="text-[#96702B]">Por qué planificar tu viaje con Paris Magic Plan</span>
+              </div>
+              <h2 class="font-serif text-3xl sm:text-4xl lg:text-[42px] font-semibold text-[#1E3264] leading-tight">
+                Viajar a Disneyland Paris con todo pensado marca la diferencia entre hacer colas o vivir la magia
+              </h2>
+              <p class="text-base text-[#42506B] leading-relaxed">
+                Cada decisión previa al viaje influye en vuestra experiencia: desde elegir el hotel adecuado hasta saber en qué minuto exacto cruzar Fantasyland o reservar vuestra mesa favorita.
+              </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+              <!-- Ventaja 01 -->
+              <article class="md:col-span-7 bg-white border border-[#1E3264]/10 rounded-3xl p-7 sm:p-9 flex flex-col justify-between transition-colors duration-150 hover:border-[#EB539F]/60">
+                <div class="space-y-4">
+                  <div class="flex items-baseline justify-between gap-4 border-b border-[#1E3264]/10 pb-4">
+                    <span class="font-serif text-2xl sm:text-3xl font-semibold text-[#EB539F] tabular-nums">01.</span>
+                    <span class="text-xs text-[#42506B] text-right">Tranquilidad desde el primer día · Ahorro de tiempo</span>
+                  </div>
+                  <h3 class="font-serif text-2xl sm:text-[26px] font-semibold text-[#1E3264] leading-snug">
+                    Olvídate de pasar semanas comparando foros, mapas y horarios cambiantes
+                  </h3>
+                  <p class="text-sm sm:text-base text-[#42506B] leading-relaxed">
+                    Organizar Disneyland Paris por libre requiere decenas de horas de investigación sobre temporadas, pases, alturas mínimas y cierres programados. Sintetizamos toda esa información en una hoja de ruta clara, cálida y lista para disfrutar.
+                  </p>
+                </div>
+                <div class="mt-8 pt-4 border-t border-[#1E3264]/10 flex items-center justify-between gap-2 text-xs font-semibold text-[#1E3264]">
+                  <span>Resultado para tu familia: Más de 25 horas de búsqueda ahorradas por familia</span>
+                  <span class="text-[#EB539F]" aria-hidden="true">✦</span>
+                </div>
+              </article>
+
+              <!-- Ventaja 02 -->
+              <article class="md:col-span-5 bg-[#EBF3FC]/85 border border-[#1E3264]/10 rounded-3xl p-7 sm:p-9 flex flex-col justify-between transition-colors duration-150 hover:border-[#EB539F]/60">
+                <div class="space-y-4">
+                  <div class="flex items-baseline justify-between gap-4 border-b border-[#1E3264]/10 pb-4">
+                    <span class="font-serif text-2xl sm:text-3xl font-semibold text-[#EB539F] tabular-nums">02.</span>
+                    <span class="text-xs text-[#42506B] text-right">Estrategia en ambos parques · Cero estrés</span>
+                  </div>
+                  <h3 class="font-serif text-2xl sm:text-[26px] font-semibold text-[#1E3264] leading-snug">
+                    Optimización real de colas, Extra Magic Time y Disney Premier Access
+                  </h3>
+                  <p class="text-sm sm:text-base text-[#42506B] leading-relaxed">
+                    Te indicamos exactamente en qué orden recorrer Disneyland Park y Walt Disney Studios (Disney Adventure World), cuándo aprovechar la hora mágica extra y en qué atracciones concretas compensa o no invertir en pases rápidos.
+                  </p>
+                </div>
+                <div class="mt-8 pt-4 border-t border-[#1E3264]/10 flex items-center justify-between gap-2 text-xs font-semibold text-[#1E3264]">
+                  <span>Resultado para tu familia: Rutas horarias probadas en temporada alta y baja</span>
+                  <span class="text-[#EB539F]" aria-hidden="true">✦</span>
+                </div>
+              </article>
+
+              <!-- Ventaja 03 -->
+              <article class="md:col-span-5 bg-[#F2EEFA]/85 border border-[#1E3264]/10 rounded-3xl p-7 sm:p-9 flex flex-col justify-between transition-colors duration-150 hover:border-[#EB539F]/60">
+                <div class="space-y-4">
+                  <div class="flex items-baseline justify-between gap-4 border-b border-[#1E3264]/10 pb-4">
+                    <span class="font-serif text-2xl sm:text-3xl font-semibold text-[#EB539F] tabular-nums">03.</span>
+                    <span class="text-xs text-[#42506B] text-right">Gastronomía y magia · Mesas aseguradas</span>
+                  </div>
+                  <h3 class="font-serif text-2xl sm:text-[26px] font-semibold text-[#1E3264] leading-snug">
+                    Selección y estrategia para restaurantes temáticos y comidas con personajes
+                  </h3>
+                  <p class="text-sm sm:text-base text-[#42506B] leading-relaxed">
+                    Las mesas en restaurantes icónicos como Bistrot Chez Rémy, Auberge de Cendrillon o Royal Banquet se agotan meses antes. Definimos tu estrategia gastronómica según vuestro régimen de pensión y gustos.
+                  </p>
+                </div>
+                <div class="mt-8 pt-4 border-t border-[#1E3264]/10 flex items-center justify-between gap-2 text-xs font-semibold text-[#1E3264]">
+                  <span>Resultado para tu familia: Guía de reserva anticipada y alternativas sin reserva</span>
+                  <span class="text-[#EB539F]" aria-hidden="true">✦</span>
+                </div>
+              </article>
+
+              <!-- Ventaja 04 -->
+              <article class="md:col-span-7 bg-white border border-[#1E3264]/10 rounded-3xl p-7 sm:p-9 flex flex-col justify-between transition-colors duration-150 hover:border-[#EB539F]/60">
+                <div class="space-y-4">
+                  <div class="flex items-baseline justify-between gap-4 border-b border-[#1E3264]/10 pb-4">
+                    <span class="font-serif text-2xl sm:text-3xl font-semibold text-[#EB539F] tabular-nums">04.</span>
+                    <span class="text-xs text-[#42506B] text-right">Diseño empático · Viajes con niños y multigeneracionales</span>
+                  </div>
+                  <h3 class="font-serif text-2xl sm:text-[26px] font-semibold text-[#1E3264] leading-snug">
+                    Un ritmo pensado para la energía real de tu familia, sin agotamiento
+                  </h3>
+                  <p class="text-sm sm:text-base text-[#42506B] leading-relaxed">
+                    No viaja igual una familia con un bebé de 2 años que una con niños de 9 o abuelos. Incluimos pausas estratégicas, zonas de descanso, uso de Baby Switch, alquiler de carritos y ubicación de los mejores lugares para ver las cabalgatas y el espectáculo nocturno.
+                  </p>
+                </div>
+                <div class="mt-8 pt-4 border-t border-[#1E3264]/10 flex items-center justify-between gap-2 text-xs font-semibold text-[#1E3264]">
+                  <span>Resultado para tu familia: Adaptado a edades, alturas e ilusiones de cada miembro</span>
+                  <span class="text-[#EB539F]" aria-hidden="true">✦</span>
+                </div>
+              </article>
+
+              <!-- Ventaja 05 -->
+              <article class="md:col-span-7 bg-[#EBF3FC]/85 border border-[#1E3264]/10 rounded-3xl p-7 sm:p-9 flex flex-col justify-between transition-colors duration-150 hover:border-[#EB539F]/60">
+                <div class="space-y-4">
+                  <div class="flex items-baseline justify-between gap-4 border-b border-[#1E3264]/10 pb-4">
+                    <span class="font-serif text-2xl sm:text-3xl font-semibold text-[#EB539F] tabular-nums">05.</span>
+                    <span class="text-xs text-[#42506B] text-right">Inversión inteligente · Presupuesto transparente</span>
+                  </div>
+                  <h3 class="font-serif text-2xl sm:text-[26px] font-semibold text-[#1E3264] leading-snug">
+                    Elección honesta de hotel, entradas y planes de comidas sin sobrecostes
+                  </h3>
+                  <p class="text-sm sm:text-base text-[#42506B] leading-relaxed">
+                    Analizamos si a vuestra familia le conviene más alojarse en un Hotel Disney oficial, en un hotel asociado o cerca de Val d’Europe, y calculamos si el plan de comidas os supone un ahorro real o un gasto innecesario.
+                  </p>
+                </div>
+                <div class="mt-8 pt-4 border-t border-[#1E3264]/10 flex items-center justify-between gap-2 text-xs font-semibold text-[#1E3264]">
+                  <span>Resultado para tu familia: Independencia total centrada en vuestro presupuesto</span>
+                  <span class="text-[#EB539F]" aria-hidden="true">✦</span>
+                </div>
+              </article>
+
+              <!-- Ventaja 06 -->
+              <article class="md:col-span-5 bg-[#F2EEFA]/85 border border-[#1E3264]/10 rounded-3xl p-7 sm:p-9 flex flex-col justify-between transition-colors duration-150 hover:border-[#EB539F]/60">
+                <div class="space-y-4">
+                  <div class="flex items-baseline justify-between gap-4 border-b border-[#1E3264]/10 pb-4">
+                    <span class="font-serif text-2xl sm:text-3xl font-semibold text-[#EB539F] tabular-nums">06.</span>
+                    <span class="text-xs text-[#42506B] text-right">Cercanía humana · Antes y durante tu estancia</span>
+                  </div>
+                  <h3 class="font-serif text-2xl sm:text-[26px] font-semibold text-[#1E3264] leading-snug">
+                    Acompañamiento experto para resolver cada duda hasta tu regreso
+                  </h3>
+                  <p class="text-sm sm:text-base text-[#42506B] leading-relaxed">
+                    No recibes un documento frío y genérico. Tienes a un especialista en Disneyland Paris a tu lado para ajustar el plan si cambian los horarios de los espectáculos o si surge cualquier imprevisto antes de viajar.
+                  </p>
+                </div>
+                <div class="mt-8 pt-4 border-t border-[#1E3264]/10 flex items-center justify-between gap-2 text-xs font-semibold text-[#1E3264]">
+                  <span>Resultado para tu familia: Atención cercana y personalizada en español</span>
+                  <span class="text-[#EB539F]" aria-hidden="true">✦</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- =====================================================================
+             3. FOTOGRAFÍA PANORÁMICA A PANTALLA COMPLETA #1
+             ===================================================================== -->
+        <section
+          aria-label="Panorámica de Disneyland Paris por la mañana"
+          class="relative w-full min-h-[480px] md:min-h-[560px] flex items-end overflow-hidden"
+        >
+          <div class="absolute inset-0 w-full h-full bg-[#EBF3FC]">
+            <img
+              src="./assets/images/panorama_main_street_magic_1791448804179.jpg"
+              alt="Avenida principal inspirada en Main Street hacia el Castillo de Disneyland Paris bajo una luz matinal dorada y cielo azul pastel"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div aria-hidden="true" class="absolute inset-0 bg-gradient-to-t from-[#111827]/90 via-[#111827]/50 to-[#111827]/15"></div>
+
+          <div class="relative z-10 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-14 md:py-20">
+            <div class="max-w-3xl space-y-5 text-white">
+              <div class="flex flex-wrap items-center gap-2 text-xs sm:text-sm text-[#EBF3FC] tracking-wide">
+                <span>La experiencia de caminar hacia el Castillo sin prisas ni incertidumbre</span>
+                <span aria-hidden="true">·</span>
+                <span class="text-[#F9A8D4]">Fotografía panorámica · Ambiente matinal en Disneyland Paris</span>
+              </div>
+              <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-semibold text-white leading-tight tracking-wide">
+                Cada minuto en el parque cuenta cuando viajas con las personas que más quieres
+              </h2>
+              <p class="text-base sm:text-lg text-[#EBF3FC]/95 leading-relaxed max-w-2xl">
+                Nuestra misión en Paris Magic Plan es que tu única preocupación al cruzar Main Street, U.S.A. sea mirar la cara de ilusión de tus hijos. Nosotros nos ocupamos de la logística, los tiempos y los secretos detrás de cada rincón.
+              </p>
+              <div class="pt-3">
+                <button
+                  type="button"
+                  data-scroll-to="#servicios"
+                  class="btn-logo-secondary px-7 py-3.5 text-sm font-semibold"
+                >
+                  <span>Ver modalidades de planificación</span>
+                  <svg class="w-4 h-4 text-[#EB539F]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14" />
+                    <path d="m12 5 7 7-7 7" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =====================================================================
+             4. SECCIÓN LUMINOSA — SERVICIOS, SUBMENÚ FUNCIONAL Y PRECIOS
+             ===================================================================== -->
+        <section
+          id="servicios"
+          class="py-20 md:py-28 bg-gradient-to-b from-[#FAFBFD] via-[#EBF3FC]/35 to-[#FAFBFD]"
+        >
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-12">
+              <div class="max-w-2xl space-y-4">
+                <div class="flex items-center gap-2 text-xs text-[#EB539F] font-semibold">
+                  <span>Servicios, Planes y Tarifas</span>
+                  <span aria-hidden="true">·</span>
+                  <span class="text-[#96702B]">Submenú interactivo de planificación</span>
+                </div>
+                <h2 class="font-serif text-3xl sm:text-4xl lg:text-[42px] font-semibold text-[#1E3264] leading-tight">
+                  Elige el nivel de acompañamiento ideal para el viaje de tu familia
+                </h2>
+                <p class="text-base text-[#42506B] leading-relaxed">
+                  Tanto si ya tienes tus entradas reservadas y buscas optimizar tus días en el parque, como si deseas que diseñemos tu viaje completo desde cero.
+                </p>
+              </div>
+
+              <!-- Submenú Interactivo de Servicios -->
+              <div
+                role="tablist"
+                aria-label="Submenú de visualización de servicios y precios"
+                class="flex flex-wrap items-center gap-3 self-start"
+              >
+                <button type="button" role="tab" aria-selected="true" data-service-filter="all" class="btn-logo-tab-active px-4 py-2 text-xs font-semibold">
+                  Visión General
+                </button>
+                <button type="button" role="tab" aria-selected="false" data-service-filter="planes" class="btn-logo-tab px-4 py-2 text-xs font-semibold">
+                  Planes de Viaje
+                </button>
+                <button type="button" role="tab" aria-selected="false" data-service-filter="extras" class="btn-logo-tab px-4 py-2 text-xs font-semibold">
+                  Servicios a la Carta
+                </button>
+                <button type="button" role="tab" aria-selected="false" data-service-filter="comparativa" class="btn-logo-tab px-4 py-2 text-xs font-semibold">
+                  Tabla Comparativa
+                </button>
+                <button type="button" role="tab" aria-selected="false" data-service-filter="recomendador" class="btn-logo-tab px-4 py-2 text-xs font-semibold">
+                  Asistente de Elección
+                </button>
+              </div>
+            </div>
+
+            <!-- A. Planes Principales -->
+            <div id="service-block-planes" class="space-y-6 mb-16">
+              <div class="flex flex-wrap items-center justify-between gap-2 border-b border-[#1E3264]/10 pb-3">
+                <h3 class="font-serif text-2xl font-semibold text-[#1E3264]">Planes Principales de Planificación</h3>
+                <span data-client-marker class="hidden text-xs text-[#EB539F]">
+                  [Marcador de Precios: Importes listos para confirmar o ajustar según tarifa vigente del cliente]
+                </span>
+              </div>
+
+              <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+                <!-- Plan 1: Esencial -->
+                <article class="bg-white border border-[#1E3264]/10 rounded-3xl p-7 sm:p-8 flex flex-col justify-between transition-colors duration-150">
+                  <div class="space-y-6">
+                    <div class="flex items-center justify-between gap-2 text-xs text-[#42506B] border-b border-[#1E3264]/10 pb-3">
+                      <span class="font-semibold text-[#EB539F]">Planificación Personalizada</span>
+                      <span>Disneyland Paris</span>
+                    </div>
+                    <div>
+                      <h4 class="font-serif text-3xl font-semibold text-[#1E3264]">Plan Esencial</h4>
+                      <p class="mt-2 text-sm text-[#42506B] leading-relaxed">
+                        Hoja de ruta estratégica para familias que ya tienen su reserva de hotel y entradas
+                      </p>
+                    </div>
+                    <div class="pt-2 pb-4 border-b border-[#1E3264]/10">
+                      <div class="flex items-baseline gap-2">
+                        <span class="font-serif text-4xl sm:text-5xl font-semibold text-[#1E3264] tabular-nums">49 €</span>
+                        <span class="text-xs text-[#42506B]">por viaje / familia</span>
+                      </div>
+                      <p data-client-marker class="hidden mt-1.5 text-xs text-[#EB539F]">
+                        Marcador de precio: Confirmar tarifa oficial Plan Esencial con el cliente
+                      </p>
+                    </div>
+                    <p class="text-sm text-[#1E3264] leading-relaxed">
+                      La base perfecta para recorrer Disneyland Park y Walt Disney Studios con orden, evitando los cuellos de botella habituales y aprovechando cada franja horaria.
+                    </p>
+                    <div class="space-y-2.5">
+                      <p class="text-xs font-semibold text-[#1E3264]">Qué incluye este plan:</p>
+                      <ul class="space-y-2.5 text-sm text-[#42506B]">
+                        <li class="flex items-start gap-2.5"><span class="text-[#EB539F] font-semibold mt-0.5">✓</span><span>Cuestionario inicial de perfil familiar, edades, alturas y preferencias</span></li>
+                        <li class="flex items-start gap-2.5"><span class="text-[#EB539F] font-semibold mt-0.5">✓</span><span>Itinerario personalizado día por día para hasta 3 días de parques</span></li>
+                        <li class="flex items-start gap-2.5"><span class="text-[#EB539F] font-semibold mt-0.5">✓</span><span>Orden óptimo de atracciones por mañana, tarde y noche</span></li>
+                        <li class="flex items-start gap-2.5"><span class="text-[#EB539F] font-semibold mt-0.5">✓</span><span>Guía práctica de uso de la App oficial de Disneyland Paris y Single Rider</span></li>
+                        <li class="flex items-start gap-2.5"><span class="text-[#EB539F] font-semibold mt-0.5">✓</span><span>Recomendación de restaurantes de comida rápida (Quick Service) por zona</span></li>
+                        <li class="flex items-start gap-2.5"><span class="text-[#EB539F] font-semibold mt-0.5">✓</span><span>Consejos de ubicación para cabalgatas y espectáculo nocturno</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="mt-8 pt-5 border-t border-[#1E3264]/10 space-y-5">
+                    <div class="text-xs text-[#42506B]">
+                      <span class="font-semibold text-[#1E3264]">Entregable: </span>
+                      <span>Dossier digital en PDF interactivo + 1 revisión de ajustes</span>
+                    </div>
+                    <button type="button" data-select-plan="Plan Esencial (49 €)" class="w-full py-3.5 px-6 text-sm font-semibold btn-logo-secondary">
+                      <span>Solicitar Plan Esencial</span>
+                      <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+                    </button>
+                  </div>
+                </article>
+
+                <!-- Plan 2: Magia Completa (Destacado) -->
+                <article class="bg-[#EBF3FC] border-2 border-[#1E3264] shadow-[0_0_0_3px_#ffffff,0_0_0_6px_#EB539F] rounded-3xl p-7 sm:p-8 flex flex-col justify-between transition-colors duration-150">
+                  <div class="space-y-6">
+                    <div class="flex items-center justify-between gap-2 text-xs text-[#42506B] border-b border-[#1E3264]/10 pb-3">
+                      <span class="font-semibold text-[#EB539F]">Modalidad Más Elegida · Recomendado</span>
+                      <span>Disneyland Paris</span>
+                    </div>
+                    <div>
+                      <h4 class="font-serif text-3xl font-semibold text-[#1E3264]">Plan Magia Completa</h4>
+                      <p class="mt-2 text-sm text-[#42506B] leading-relaxed">
+                        Nuestra planificación integral más solicitada para vivir un viaje redondo y sin estrés
+                      </p>
+                    </div>
+                    <div class="pt-2 pb-4 border-b border-[#1E3264]/10">
+                      <div class="flex items-baseline gap-2">
+                        <span class="font-serif text-4xl sm:text-5xl font-semibold text-[#1E3264] tabular-nums">95 €</span>
+                        <span class="text-xs text-[#42506B]">por viaje / familia</span>
+                      </div>
+                      <p data-client-marker class="hidden mt-1.5 text-xs text-[#EB539F]">
+                        Marcador de precio: Confirmar tarifa oficial Plan Magia Completa con el cliente
+                      </p>
+                    </div>
+                    <p class="text-sm text-[#1E3264] leading-relaxed">
+                      Abarca desde la elección del mejor alojamiento y entradas hasta el diseño minucioso de cada jornada, estrategia gastronómica y soporte continuo antes de viajar.
+                    </p>
+                    <div class="space-y-2.5">
+                      <p class="text-xs font-semibold text-[#1E3264]">Qué incluye este plan:</p>
+                      <ul class="space-y-2.5 text-sm text-[#42506B]">
+                        <li class="flex items-start gap-2.5"><span class="text-[#EB539F] font-semibold mt-0.5">✓</span><span>Todo lo incluido en el Plan Esencial, ampliado hasta 5 días de estancia</span></li>
+                        <li class="flex items-start gap-2.5"><span class="text-[#EB539F] font-semibold mt-0.5">✓</span><span>Estudio comparativo de Hotel Disney vs. Hotel Asociado y planes de comidas</span></li>
+                        <li class="flex items-start gap-2.5"><span class="text-[#EB539F] font-semibold mt-0.5">✓</span><span>Sesión de asesoría personalizada por videollamada (45 minutos)</span></li>
+                        <li class="flex items-start gap-2.5"><span class="text-[#EB539F] font-semibold mt-0.5">✓</span><span>Estrategia completa de reservas de restaurantes de mesa y comidas con personajes</span></li>
+                        <li class="flex items-start gap-2.5"><span class="text-[#EB539F] font-semibold mt-0.5">✓</span><span>Planificación de encuentros con personajes, espectáculos teatrales y horarios</span></li>
+                        <li class="flex items-start gap-2.5"><span class="text-[#EB539F] font-semibold mt-0.5">✓</span><span>Guía de traslados desde los aeropuertos de París (CDG, Orly o Beauvais)</span></li>
+                        <li class="flex items-start gap-2.5"><span class="text-[#EB539F] font-semibold mt-0.5">✓</span><span>Soporte directo por WhatsApp / Email durante los 15 días previos al viaje</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="mt-8 pt-5 border-t border-[#1E3264]/10 space-y-5">
+                    <div class="text-xs text-[#42506B]">
+                      <span class="font-semibold text-[#1E3264]">Entregable: </span>
+                      <span>Dossier Paris Magic Plan a medida + Videollamada + Soporte previo</span>
+                    </div>
+                    <button type="button" data-select-plan="Plan Magia Completa (95 €)" class="w-full py-3.5 px-6 text-sm font-semibold btn-logo-primary">
+                      <span>Elegir Plan Magia Completa</span>
+                      <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+                    </button>
+                  </div>
+                </article>
+
+                <!-- Plan 3: Étoile VIP -->
+                <article class="bg-[#F2EEFA]/85 border border-[#1E3264]/10 rounded-3xl p-7 sm:p-8 flex flex-col justify-between transition-colors duration-150">
+                  <div class="space-y-6">
+                    <div class="flex items-center justify-between gap-2 text-xs text-[#42506B] border-b border-[#1E3264]/10 pb-3">
+                      <span class="font-semibold text-[#EB539F]">Planificación Personalizada</span>
+                      <span>Disneyland Paris</span>
+                    </div>
+                    <div>
+                      <h4 class="font-serif text-3xl font-semibold text-[#1E3264]">Plan Étoile VIP</h4>
+                      <p class="mt-2 text-sm text-[#42506B] leading-relaxed">
+                        Acompañamiento exclusivo y diseño de viaje combinado Disneyland Paris + París ciudad
+                      </p>
+                    </div>
+                    <div class="pt-2 pb-4 border-b border-[#1E3264]/10">
+                      <div class="flex items-baseline gap-2">
+                        <span class="font-serif text-4xl sm:text-5xl font-semibold text-[#1E3264] tabular-nums">165 €</span>
+                        <span class="text-xs text-[#42506B]">por viaje / familia</span>
+                      </div>
+                      <p data-client-marker class="hidden mt-1.5 text-xs text-[#EB539F]">
+                        Marcador de precio: Confirmar tarifa oficial Plan VIP con el cliente
+                      </p>
+                    </div>
+                    <p class="text-sm text-[#1E3264] leading-relaxed">
+                      Para las familias que quieren delegar toda la planificación de principio a fin, incluyendo días de visita a París (Torre Eiffel, Sena, Louvre con niños) y asistencia durante el viaje.
+                    </p>
+                    <div class="space-y-2.5">
+                      <p class="text-xs font-semibold text-[#1E3264]">Qué incluye este plan:</p>
+                      <ul class="space-y-2.5 text-sm text-[#42506B]">
+                        <li class="flex items-start gap-2.5"><span class="text-[#EB539F] font-semibold mt-0.5">✓</span><span>Todo lo incluido en el Plan Magia Completa sin límite de días</span></li>
+                        <li class="flex items-start gap-2.5"><span class="text-[#EB539F] font-semibold mt-0.5">✓</span><span>2 sesiones privadas de planificación y revisión por videollamada</span></li>
+                        <li class="flex items-start gap-2.5"><span class="text-[#EB539F] font-semibold mt-0.5">✓</span><span>Itinerario combinado a medida: Disneyland Paris + visita familiar a París ciudad</span></li>
+                        <li class="flex items-start gap-2.5"><span class="text-[#EB539F] font-semibold mt-0.5">✓</span><span>Seguimiento activo de apertura de agenda para reservas difíciles y alertas</span></li>
+                        <li class="flex items-start gap-2.5"><span class="text-[#EB539F] font-semibold mt-0.5">✓</span><span>Plan B detallado en caso de lluvia, frío intenso o cierres imprevistos</span></li>
+                        <li class="flex items-start gap-2.5"><span class="text-[#EB539F] font-semibold mt-0.5">✓</span><span>Asistencia prioritaria por WhatsApp en tiempo real durante los días del viaje</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="mt-8 pt-5 border-t border-[#1E3264]/10 space-y-5">
+                    <div class="text-xs text-[#42506B]">
+                      <span class="font-semibold text-[#1E3264]">Entregable: </span>
+                      <span>Concierge completo + Dossier Maestro + Asistencia en destino</span>
+                    </div>
+                    <button type="button" data-select-plan="Plan Étoile VIP (165 €)" class="w-full py-3.5 px-6 text-sm font-semibold btn-logo-secondary">
+                      <span>Solicitar Plan Étoile VIP</span>
+                      <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <!-- B. Servicios a la Carta -->
+            <div id="service-block-extras" class="space-y-6 mb-16">
+              <div class="flex flex-wrap items-center justify-between gap-2 border-b border-[#1E3264]/10 pb-3">
+                <div>
+                  <h3 class="font-serif text-2xl font-semibold text-[#1E3264]">Servicios a la Carta y Módulos Especiales</h3>
+                  <p class="text-sm text-[#42506B]">Opciones específicas para resolver dudas puntuales o ampliar tu viaje a la ciudad de París.</p>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <article class="bg-white rounded-3xl p-7 border border-[#1E3264]/10 flex flex-col justify-between hover:border-[#EB539F]/60 transition-colors">
+                  <div class="space-y-4">
+                    <div class="flex items-baseline justify-between gap-2 border-b border-[#1E3264]/10 pb-3">
+                      <span class="font-mono text-xs font-semibold text-[#EB539F] tabular-nums">S01 · 60 minutos por videollamada + resumen escrito</span>
+                      <span class="font-serif text-2xl font-semibold text-[#1E3264] tabular-nums whitespace-nowrap">39 €</span>
+                    </div>
+                    <p data-client-marker class="hidden text-xs text-[#EB539F]">Marcador: Confirmar tarifa sesión suelta</p>
+                    <h4 class="font-serif text-2xl font-semibold text-[#1E3264] leading-snug">Sesión de Asesoría Express 1 a 1</h4>
+                    <p class="text-sm text-[#42506B] leading-relaxed">
+                      ¿Ya tienes tu viaje organizado pero necesitas que un experto revise tu plan, resuelva tus dudas sobre entradas, Premier Access o comidas y te dé trucos clave?
+                    </p>
+                    <ul class="space-y-1.5 pt-2 text-xs text-[#42506B]">
+                      <li class="flex items-start gap-2"><span class="text-[#EB539F]">·</span><span>Auditoría en directo de tus reservas actuales</span></li>
+                      <li class="flex items-start gap-2"><span class="text-[#EB539F]">·</span><span>Resolución de dudas específicas de tu familia</span></li>
+                      <li class="flex items-start gap-2"><span class="text-[#EB539F]">·</span><span>Envío posterior de resumen con recomendaciones accionables</span></li>
+                    </ul>
+                  </div>
+                  <div class="mt-6 pt-5 border-t border-[#1E3264]/10">
+                    <button type="button" data-select-plan="Sesión de Asesoría Express 1 a 1 (39 €)" class="w-full btn-logo-secondary py-2.5 px-5 text-xs font-semibold">
+                      <span>Consultar disponibilidad</span>
+                      <svg class="w-3.5 h-3.5 text-[#EB539F]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+                    </button>
+                  </div>
+                </article>
+
+                <article class="bg-white rounded-3xl p-7 border border-[#1E3264]/10 flex flex-col justify-between hover:border-[#EB539F]/60 transition-colors">
+                  <div class="space-y-4">
+                    <div class="flex items-baseline justify-between gap-2 border-b border-[#1E3264]/10 pb-3">
+                      <span class="font-mono text-xs font-semibold text-[#EB539F] tabular-nums">S02 · Plan de comidas + selección de restaurantes</span>
+                      <span class="font-serif text-2xl font-semibold text-[#1E3264] tabular-nums whitespace-nowrap">29 €</span>
+                    </div>
+                    <p data-client-marker class="hidden text-xs text-[#EB539F]">Marcador: Confirmar tarifa módulo gastronómico</p>
+                    <h4 class="font-serif text-2xl font-semibold text-[#1E3264] leading-snug">Estrategia y Guía de Reservas Gastronómicas</h4>
+                    <p class="text-sm text-[#42506B] leading-relaxed">
+                      Selección personalizada de restaurantes de mesa, buffet y comida rápida según alergias, presupuesto y personajes favoritos, con instrucciones exactas de reserva.
+                    </p>
+                    <ul class="space-y-1.5 pt-2 text-xs text-[#42506B]">
+                      <li class="flex items-start gap-2"><span class="text-[#EB539F]">·</span><span>Cálculo de rentabilidad de Media Pensión / Pensión Completa</span></li>
+                      <li class="flex items-start gap-2"><span class="text-[#EB539F]">·</span><span>Hoja de ruta de restaurantes por parque y hotel</span></li>
+                      <li class="flex items-start gap-2"><span class="text-[#EB539F]">·</span><span>Opciones para intolerancias alimentarias y menús infantiles</span></li>
+                    </ul>
+                  </div>
+                  <div class="mt-6 pt-5 border-t border-[#1E3264]/10">
+                    <button type="button" data-select-plan="Estrategia y Guía de Reservas Gastronómicas (29 €)" class="w-full btn-logo-secondary py-2.5 px-5 text-xs font-semibold">
+                      <span>Consultar disponibilidad</span>
+                      <svg class="w-3.5 h-3.5 text-[#EB539F]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+                    </button>
+                  </div>
+                </article>
+
+                <article class="bg-white rounded-3xl p-7 border border-[#1E3264]/10 flex flex-col justify-between hover:border-[#EB539F]/60 transition-colors">
+                  <div class="space-y-4">
+                    <div class="flex items-baseline justify-between gap-2 border-b border-[#1E3264]/10 pb-3">
+                      <span class="font-mono text-xs font-semibold text-[#EB539F] tabular-nums">S03 · Suplemento días en la ciudad de París</span>
+                      <span class="font-serif text-2xl font-semibold text-[#1E3264] tabular-nums whitespace-nowrap">45 €</span>
+                    </div>
+                    <p data-client-marker class="hidden text-xs text-[#EB539F]">Marcador: Confirmar tarifa extensión París</p>
+                    <h4 class="font-serif text-2xl font-semibold text-[#1E3264] leading-snug">Módulo Extensión: París en Familia (1 a 3 días)</h4>
+                    <p class="text-sm text-[#42506B] leading-relaxed">
+                      Combina la magia del parque con los imprescindibles de París adaptados a niños: crucero por el Sena, Torre Eiffel sin colas, Montmartre y transporte sencillo en RER/Metro.
+                    </p>
+                    <ul class="space-y-1.5 pt-2 text-xs text-[#42506B]">
+                      <li class="flex items-start gap-2"><span class="text-[#EB539F]">·</span><span>Rutas familiares por París conectadas con Marne-la-Vallée</span></li>
+                      <li class="flex items-start gap-2"><span class="text-[#EB539F]">·</span><span>Guía de billetes de transporte y entradas a monumentos</span></li>
+                      <li class="flex items-start gap-2"><span class="text-[#EB539F]">·</span><span>Recomendación de cafeterías y brasseries cómodas para ir con niños</span></li>
+                    </ul>
+                  </div>
+                  <div class="mt-6 pt-5 border-t border-[#1E3264]/10">
+                    <button type="button" data-select-plan="Módulo Extensión: París en Familia (45 €)" class="w-full btn-logo-secondary py-2.5 px-5 text-xs font-semibold">
+                      <span>Consultar disponibilidad</span>
+                      <svg class="w-3.5 h-3.5 text-[#EB539F]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <!-- C. Tabla Comparativa -->
+            <div id="service-block-comparativa" class="mb-16 bg-white rounded-3xl border border-[#1E3264]/12 overflow-hidden">
+              <div class="p-6 sm:p-8 border-b border-[#1E3264]/10 bg-[#F2EEFA]/50 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div>
+                  <h3 class="font-serif text-2xl font-semibold text-[#1E3264]">Comparativa Detallada de Planes</h3>
+                  <p class="text-sm text-[#42506B]">Revisa de un vistazo qué incluye cada modalidad de Paris Magic Plan.</p>
+                </div>
+                <span class="text-xs text-[#EB539F] font-semibold">Precios por familia · Sin comisiones ocultas</span>
+              </div>
+
+              <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                  <thead>
+                    <tr class="border-b border-[#1E3264]/10 bg-[#FAFBFD] text-xs font-semibold text-[#1E3264]">
+                      <th class="py-4 px-6 min-w-[240px]">Característica del Servicio</th>
+                      <th class="py-4 px-6 tabular-nums">Plan Esencial (49 €)</th>
+                      <th class="py-4 px-6 bg-[#EBF3FC]/60 text-[#1E3264] tabular-nums">Plan Magia Completa (95 €)</th>
+                      <th class="py-4 px-6 tabular-nums">Plan Étoile VIP (165 €)</th>
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-[#1E3264]/8 text-sm">
+                    <tr class="hover:bg-[#FAFBFD]">
+                      <td class="py-4 px-6 font-semibold text-[#1E3264]">Cuestionario inicial y estudio del perfil familiar</td>
+                      <td class="py-4 px-6 text-[#42506B]">Incluido</td>
+                      <td class="py-4 px-6 bg-[#EBF3FC]/35 font-semibold text-[#1E3264]">Incluido</td>
+                      <td class="py-4 px-6 text-[#42506B]">Incluido</td>
+                    </tr>
+                    <tr class="hover:bg-[#FAFBFD]">
+                      <td class="py-4 px-6 font-semibold text-[#1E3264]">Itinerario personalizado día a día en los parques</td>
+                      <td class="py-4 px-6 text-[#42506B]">Hasta 3 días</td>
+                      <td class="py-4 px-6 bg-[#EBF3FC]/35 font-semibold text-[#1E3264]">Hasta 5 días</td>
+                      <td class="py-4 px-6 text-[#42506B]">Días ilimitados</td>
+                    </tr>
+                    <tr class="hover:bg-[#FAFBFD]">
+                      <td class="py-4 px-6 font-semibold text-[#1E3264]">Asesoría de elección de Hotel y Planes de Comidas</td>
+                      <td class="py-4 px-6 text-[#42506B]">Guía base</td>
+                      <td class="py-4 px-6 bg-[#EBF3FC]/35 font-semibold text-[#1E3264]">Estudio a medida</td>
+                      <td class="py-4 px-6 text-[#42506B]">Estudio completo + París</td>
+                    </tr>
+                    <tr class="hover:bg-[#FAFBFD]">
+                      <td class="py-4 px-6 font-semibold text-[#1E3264]">Estrategia de restaurantes y comidas con personajes</td>
+                      <td class="py-4 px-6 text-[#42506B]">Quick Service</td>
+                      <td class="py-4 px-6 bg-[#EBF3FC]/35 font-semibold text-[#1E3264]">Completa (Mesa y Buffet)</td>
+                      <td class="py-4 px-6 text-[#42506B]">Prioritaria con seguimiento</td>
+                    </tr>
+                    <tr class="hover:bg-[#FAFBFD]">
+                      <td class="py-4 px-6 font-semibold text-[#1E3264]">Sesiones por videollamada incluidas</td>
+                      <td class="py-4 px-6 text-[#42506B]">—</td>
+                      <td class="py-4 px-6 bg-[#EBF3FC]/35 font-semibold text-[#1E3264]">1 sesión (45 min)</td>
+                      <td class="py-4 px-6 text-[#42506B]">2 sesiones privadas</td>
+                    </tr>
+                    <tr class="hover:bg-[#FAFBFD]">
+                      <td class="py-4 px-6 font-semibold text-[#1E3264]">Planificación de visita a la ciudad de París</td>
+                      <td class="py-4 px-6 text-[#42506B]">Opcional</td>
+                      <td class="py-4 px-6 bg-[#EBF3FC]/35 font-semibold text-[#1E3264]">Opcional</td>
+                      <td class="py-4 px-6 text-[#42506B]">Incluido a medida</td>
+                    </tr>
+                    <tr class="hover:bg-[#FAFBFD]">
+                      <td class="py-4 px-6 font-semibold text-[#1E3264]">Soporte directo por WhatsApp para dudas</td>
+                      <td class="py-4 px-6 text-[#42506B]">Entrega y 1 revisión</td>
+                      <td class="py-4 px-6 bg-[#EBF3FC]/35 font-semibold text-[#1E3264]">15 días antes del viaje</td>
+                      <td class="py-4 px-6 text-[#42506B]">Antes y durante el viaje</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- D. Asistente Interactivo Recomendador -->
+            <div id="service-block-recomendador" class="rounded-3xl p-7 sm:p-10 bg-gradient-to-r from-[#EBF3FC] via-white to-[#F2EEFA] border border-[#1E3264]/15">
+              <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                <div class="lg:col-span-7 space-y-6">
+                  <div>
+                    <p class="text-xs font-semibold text-[#EB539F]">Asistente Interactivo · Recomendador de Plan</p>
+                    <h3 class="font-serif text-2xl sm:text-3xl font-semibold text-[#1E3264] mt-1">
+                      ¿No sabes qué modalidad encaja mejor con vuestro viaje?
+                    </h3>
+                    <p class="text-sm text-[#42506B] mt-1">
+                      Selecciona las características de tu estancia para ver nuestra recomendación honesta:
+                    </p>
+                  </div>
+
+                  <div class="space-y-5">
+                    <div>
+                      <label class="block text-xs font-semibold text-[#1E3264] mb-2.5">
+                        1. Duración prevista en Disneyland Paris:
+                      </label>
+                      <div class="flex flex-wrap gap-3">
+                        <button type="button" data-rec-duration="short" class="btn-logo-tab px-4 py-2 text-xs font-semibold">1 a 2 días</button>
+                        <button type="button" data-rec-duration="medium" class="btn-logo-tab-active px-4 py-2 text-xs font-semibold">3 a 4 días (Estancia media)</button>
+                        <button type="button" data-rec-duration="long" class="btn-logo-tab px-4 py-2 text-xs font-semibold">5 o más días</button>
+                      </div>
+                    </div>
+
+                    <div>
+                      <label class="block text-xs font-semibold text-[#1E3264] mb-2.5">
+                        2. Perfil de los viajeros:
+                      </label>
+                      <div class="flex flex-wrap gap-3">
+                        <button type="button" data-rec-family="toddlers" class="btn-logo-tab px-4 py-2 text-xs font-semibold">Con bebés o peques (0-5 años)</button>
+                        <button type="button" data-rec-family="kids" class="btn-logo-tab-active px-4 py-2 text-xs font-semibold">Con niños / adolescentes (6+ años)</button>
+                        <button type="button" data-rec-family="multigen" class="btn-logo-tab px-4 py-2 text-xs font-semibold">Grupo grande o abuelos + nietos</button>
+                      </div>
+                    </div>
+
+                    <div>
+                      <label class="block text-xs font-semibold text-[#1E3264] mb-2.5">
+                        3. ¿Queréis visitar también la ciudad de París (Torre Eiffel, Sena, Louvre)?
+                      </label>
+                      <div class="flex flex-wrap gap-3">
+                        <button type="button" data-rec-paris="false" class="btn-logo-tab-active px-4 py-2 text-xs font-semibold">Solo parques Disneyland Paris</button>
+                        <button type="button" data-rec-paris="true" class="btn-logo-tab px-4 py-2 text-xs font-semibold">Sí, viaje combinado Disney + París</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="lg:col-span-5 pt-6 lg:pt-0 border-t lg:border-t-0 lg:border-l border-[#1E3264]/12 lg:pl-10 space-y-4">
+                  <div class="flex items-center justify-between text-xs text-[#EB539F] font-semibold border-b border-[#1E3264]/10 pb-3">
+                    <span>Modalidad recomendada para vosotros</span>
+                    <span id="rec-plan-price" class="tabular-nums text-[#1E3264]">95 €</span>
+                  </div>
+                  <h4 id="rec-plan-name" class="font-serif text-3xl font-semibold text-[#1E3264]">Plan Magia Completa</h4>
+                  <p id="rec-plan-summary" class="text-sm text-[#42506B] leading-relaxed">
+                    Abarca desde la elección del mejor alojamiento y entradas hasta el diseño minucioso de cada jornada, estrategia gastronómica y soporte continuo antes de viajar.
+                  </p>
+                  <p class="text-xs text-[#1E3264]">
+                    <span class="font-semibold">Por qué encaja: </span>
+                    <span id="rec-plan-reason">Familias en estancias de 3 a 4 días que desean asesoría desde cero y reservas</span>
+                  </p>
+                  <div class="pt-2">
+                    <button
+                      id="rec-plan-select-btn"
+                      type="button"
+                      data-select-plan="Plan Magia Completa (95 €)"
+                      class="w-full btn-logo-primary px-6 py-3.5 text-sm font-semibold"
+                    >
+                      <span id="rec-plan-btn-text">Preseleccionar Plan Magia Completa</span>
+                      <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =====================================================================
+             5. SECCIÓN LUMINOSA — LOS CUATRO PASOS DE PLANIFICACIÓN
+             ===================================================================== -->
+        <section id="pasos" class="py-20 md:py-28 bg-[#FAFBFD]">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl space-y-4 mb-14">
+              <div class="flex items-center gap-2 text-xs text-[#EB539F] font-semibold">
+                <span>Metodología Paso a Paso</span>
+                <span aria-hidden="true">·</span>
+                <span class="text-[#96702B]">Los 4 pasos de planificación</span>
+              </div>
+              <h2 class="font-serif text-3xl sm:text-4xl lg:text-[42px] font-semibold text-[#1E3264] leading-tight">
+                Cuatro pasos claros para transformar la preparación en parte de la magia
+              </h2>
+              <p class="text-base text-[#42506B] leading-relaxed">
+                Un proceso ordenado, transparente y sin agobios en el que siempre sabes cuál es el siguiente paso y qué documentos vas a recibir.
+              </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <!-- Paso 01 -->
+              <article data-step-index="0" class="step-card-active cursor-pointer bg-white border border-[#1E3264]/10 rounded-3xl p-7 flex flex-col justify-between transition-colors duration-150">
+                <div class="space-y-4">
+                  <div class="flex items-baseline justify-between border-b border-[#1E3264]/10 pb-4">
+                    <span class="font-serif text-4xl font-semibold text-[#EB539F] tabular-nums">01.</span>
+                    <span class="text-xs font-semibold text-[#42506B]">Fase 01 de 04</span>
+                  </div>
+                  <p class="text-xs font-semibold text-[#EB539F]">Paso 01 · Escucha y Diagnóstico</p>
+                  <h3 class="font-serif text-2xl font-semibold text-[#1E3264] leading-snug">
+                    Conocemos a tu familia, vuestras fechas y vuestra mayor ilusión
+                  </h3>
+                  <p class="text-sm text-[#42506B] leading-relaxed">
+                    Completáis nuestro cuestionario mágico detallado (o nos vemos en la primera sesión) para conocer las edades de los niños, sus personajes favoritos, si buscáis adrenalina o magia tranquila, y vuestro presupuesto objetivo.
+                  </p>
+                </div>
+                <div class="mt-8 pt-4 border-t border-[#1E3264]/10 space-y-2 text-xs">
+                  <div><span class="font-semibold text-[#1E3264]">Tu parte: </span><span class="text-[#42506B]">Completas el perfil de tu familia en 5 minutos</span></div>
+                  <div><span class="font-semibold text-[#EB539F]">Recibes: </span><span class="text-[#1E3264]">Análisis de viabilidad, mejores fechas y propuesta de estructura de estancia</span></div>
+                </div>
+              </article>
+
+              <!-- Paso 02 -->
+              <article data-step-index="1" class="cursor-pointer bg-[#EBF3FC]/85 border border-[#1E3264]/10 rounded-3xl p-7 flex flex-col justify-between transition-colors duration-150">
+                <div class="space-y-4">
+                  <div class="flex items-baseline justify-between border-b border-[#1E3264]/10 pb-4">
+                    <span class="font-serif text-4xl font-semibold text-[#EB539F] tabular-nums">02.</span>
+                    <span class="text-xs font-semibold text-[#42506B]">Fase 02 de 04</span>
+                  </div>
+                  <p class="text-xs font-semibold text-[#EB539F]">Paso 02 · Base del Viaje y Reservas Clave</p>
+                  <h3 class="font-serif text-2xl font-semibold text-[#1E3264] leading-snug">
+                    Definimos alojamiento, entradas, traslados y mesas de restaurantes
+                  </h3>
+                  <p class="text-sm text-[#42506B] leading-relaxed">
+                    Te guiamos paso a paso para elegir la combinación óptima de hotel y entradas, y trazamos el calendario de bloqueo de restaurantes temáticos, experiencias con princesas o personajes y transporte desde el aeropuerto.
+                  </p>
+                </div>
+                <div class="mt-8 pt-4 border-t border-[#1E3264]/10 space-y-2 text-xs">
+                  <div><span class="font-semibold text-[#1E3264]">Tu parte: </span><span class="text-[#42506B]">Confirmas las opciones recomendadas con total seguridad</span></div>
+                  <div><span class="font-semibold text-[#EB539F]">Recibes: </span><span class="text-[#1E3264]">Hoja de reservas estratégicas y calendario de hitos previos al viaje</span></div>
+                </div>
+              </article>
+
+              <!-- Paso 03 -->
+              <article data-step-index="2" class="cursor-pointer bg-[#F2EEFA]/85 border border-[#1E3264]/10 rounded-3xl p-7 flex flex-col justify-between transition-colors duration-150">
+                <div class="space-y-4">
+                  <div class="flex items-baseline justify-between border-b border-[#1E3264]/10 pb-4">
+                    <span class="font-serif text-4xl font-semibold text-[#EB539F] tabular-nums">03.</span>
+                    <span class="text-xs font-semibold text-[#42506B]">Fase 03 de 04</span>
+                  </div>
+                  <p class="text-xs font-semibold text-[#EB539F]">Paso 03 · Diseño Artesanal del Itinerario</p>
+                  <h3 class="font-serif text-2xl font-semibold text-[#1E3264] leading-snug">
+                    Creamos tu Paris Magic Plan día por día, hora a hora y sin agobios
+                  </h3>
+                  <p class="text-sm text-[#42506B] leading-relaxed">
+                    Diseñamos el recorrido diario por Disneyland Park y Walt Disney Studios optimizando distancias, tiempos de espera, horarios de cabalgatas, pausas de descanso y trucos exclusivos para disfrutar el doble caminando la mitad.
+                  </p>
+                </div>
+                <div class="mt-8 pt-4 border-t border-[#1E3264]/10 space-y-2 text-xs">
+                  <div><span class="font-semibold text-[#1E3264]">Tu parte: </span><span class="text-[#42506B]">Revisas tu dossier personalizado y ajustamos cualquier detalle</span></div>
+                  <div><span class="font-semibold text-[#EB539F]">Recibes: </span><span class="text-[#1E3264]">Dossier Paris Magic Plan definitivo (PDF interactivo + mapas de ruta)</span></div>
+                </div>
+              </article>
+
+              <!-- Paso 04 -->
+              <article data-step-index="3" class="cursor-pointer bg-white border border-[#1E3264]/10 rounded-3xl p-7 flex flex-col justify-between transition-colors duration-150">
+                <div class="space-y-4">
+                  <div class="flex items-baseline justify-between border-b border-[#1E3264]/10 pb-4">
+                    <span class="font-serif text-4xl font-semibold text-[#EB539F] tabular-nums">04.</span>
+                    <span class="text-xs font-semibold text-[#42506B]">Fase 04 de 04</span>
+                  </div>
+                  <p class="text-xs font-semibold text-[#EB539F]">Paso 04 · Preparativos Finales y Magia en Destino</p>
+                  <h3 class="font-serif text-2xl font-semibold text-[#1E3264] leading-snug">
+                    Repaso final antes de volar y acompañamiento para que solo disfrutéis
+                  </h3>
+                  <p class="text-sm text-[#42506B] leading-relaxed">
+                    Días antes de vuestra salida revisamos los horarios oficiales definitivos publicados por Disneyland Paris, comprobamos la previsión meteorológica, repasamos el equipaje recomendado y quedamos a vuestra disposición.
+                  </p>
+                </div>
+                <div class="mt-8 pt-4 border-t border-[#1E3264]/10 space-y-2 text-xs">
+                  <div><span class="font-semibold text-[#1E3264]">Tu parte: </span><span class="text-[#42506B]">Haces las maletas con tranquilidad e ilusión</span></div>
+                  <div><span class="font-semibold text-[#EB539F]">Recibes: </span><span class="text-[#1E3264]">Actualización de horarios de última hora y asistencia según tu plan</span></div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Barra de Detalle Activo de Paso -->
+            <div class="mt-10 rounded-3xl p-6 sm:p-8 bg-[#F2EEFA]/75 border border-[#1E3264]/10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+              <div class="space-y-1.5 max-w-2xl">
+                <div id="active-step-phase" class="text-xs font-semibold text-[#EB539F]">
+                  Detalle activo · Paso 01 · Escucha y Diagnóstico
+                </div>
+                <h4 id="active-step-subtitle" class="font-serif text-2xl font-semibold text-[#1E3264]">
+                  Todo gran viaje comienza entendiendo quiénes sois y cómo os gusta viajar.
+                </h4>
+                <p id="active-step-deliverable" class="text-sm text-[#42506B]">
+                  Entregable garantizado: Análisis de viabilidad, mejores fechas y propuesta de estructura de estancia
+                </p>
+              </div>
+
+              <div class="flex flex-wrap items-center gap-4 shrink-0">
+                <button id="next-step-btn" type="button" class="btn-logo-secondary px-5 py-2.5 text-xs font-semibold">
+                  Ver siguiente paso (2/4)
+                </button>
+                <button type="button" data-scroll-to="#contacto" class="btn-logo-primary px-6 py-2.5 text-xs font-semibold">
+                  Iniciar Paso 01 ahora
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =====================================================================
+             6. FOTOGRAFÍA PANORÁMICA A PANTALLA COMPLETA #2
+             ===================================================================== -->
+        <section
+          aria-label="Panorámica nocturna del Castillo iluminado en Disneyland Paris"
+          class="relative w-full min-h-[480px] md:min-h-[560px] flex items-end overflow-hidden"
+        >
+          <div class="absolute inset-0 w-full h-full bg-[#1E3264]">
+            <img
+              src="./assets/images/panorama_twilight_illuminations_1791448815716.jpg"
+              alt="Panorámica nocturna iluminada con luces doradas bajo un cielo crepuscular azul pastel y lavanda"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div aria-hidden="true" class="absolute inset-0 bg-gradient-to-t from-[#111827]/90 via-[#111827]/50 to-[#111827]/20"></div>
+
+          <div class="relative z-10 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-14 md:py-20">
+            <div class="max-w-3xl space-y-5 text-white">
+              <div class="flex flex-wrap items-center gap-2 text-xs sm:text-sm text-[#F2EEFA] tracking-wide">
+                <span>Cuando cae la tarde y el cielo se tiñe de lavanda y oro</span>
+                <span aria-hidden="true">·</span>
+                <span class="text-[#F9A8D4]">Fotografía panorámica · Iluminaciones nocturnas en familia</span>
+              </div>
+              <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-semibold text-white leading-tight tracking-wide">
+                Recuerdos familiares que permanecen mucho después de que se apaguen las luces del Castillo
+              </h2>
+              <p class="text-base sm:text-lg text-[#F2EEFA]/95 leading-relaxed max-w-2xl">
+                Sabemos dónde situarte para contemplar los drones y fuegos artificiales sin agobios, a qué hora cenar para no perderte el espectáculo nocturno y cómo cerrar cada jornada con una sonrisa.
+              </p>
+              <div class="pt-3">
+                <button
+                  type="button"
+                  data-scroll-to="#opiniones"
+                  class="btn-logo-secondary px-7 py-3.5 text-sm font-semibold"
+                >
+                  <span>Leer opiniones de familias</span>
+                  <svg class="w-4 h-4 text-[#EB539F]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14" />
+                    <path d="m12 5 7 7-7 7" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =====================================================================
+             7. SECCIÓN LUMINOSA — OPINIONES (Preparada para 4 Testimonios Reales)
+             ===================================================================== -->
+        <section
+          id="opiniones"
+          class="py-20 md:py-28 bg-gradient-to-b from-[#FAFBFD] via-[#F2EEFA]/45 to-[#FAFBFD]"
+        >
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
+              <div class="max-w-2xl space-y-4">
+                <div class="flex items-center gap-2 text-xs text-[#EB539F] font-semibold">
+                  <span>Experiencias Reales en Familia</span>
+                  <span aria-hidden="true">·</span>
+                  <span class="text-[#96702B]">Sección preparada para 4 testimonios reales</span>
+                </div>
+                <h2 class="font-serif text-3xl sm:text-4xl lg:text-[42px] font-semibold text-[#1E3264] leading-tight">
+                  Lo que cuentan las familias que han vivido Disneyland Paris con nuestro plan
+                </h2>
+                <p class="text-base text-[#42506B] leading-relaxed">
+                  Estructura editorial en cuadrícula simétrica diseñada específicamente para albergar cuatro testimonios verificados del cliente con atribución completa.
+                </p>
+              </div>
+
+              <button
+                id="marker-mode-btn-opiniones"
+                type="button"
+                data-toggle-markers
+                class="self-start btn-logo-secondary px-5 py-2.5 text-xs font-semibold"
+              >
+                Modo actual: Vista limpia de presentación
+              </button>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-7">
+              <!-- Testimonio 1 -->
+              <article class="bg-white border border-[#1E3264]/10 rounded-3xl p-7 sm:p-9 flex flex-col justify-between">
+                <div class="space-y-5">
+                  <div class="flex flex-wrap items-center justify-between gap-2 pb-4 border-b border-[#1E3264]/10 text-xs text-[#42506B]">
+                    <span class="font-mono font-semibold text-[#EB539F] tabular-nums">Testimonio Real 01 / 04</span>
+                    <div class="flex items-center gap-1.5">
+                      <span class="text-[#C59B52]" aria-hidden="true">★★★★★</span>
+                      <span class="font-semibold text-[#1E3264] tabular-nums">5.0 / 5 · Valoración familiar</span>
+                    </div>
+                  </div>
+                  <div data-client-marker class="hidden pb-4 border-b border-dashed border-[#EB539F]/60 text-xs space-y-1">
+                    <p class="font-semibold text-[#EB539F]">[Marcador: Testimonio Real #1 — Sustituir por nombre, foto/datos y reseña real del cliente]</p>
+                    <p class="text-[#42506B]">Espacio reservado para el primer testimonio verificado del cliente. Incluye nombre de la familia, ciudad de origen, fechas del viaje, modalidad contratada y cita textual.</p>
+                  </div>
+                  <h3 class="font-serif text-2xl font-semibold text-[#1E3264] leading-snug">
+                    «Pasamos de estar abrumados con tanta información a disfrutar cada minuto sin hacer una sola cola de más de 20 minutos»
+                  </h3>
+                  <p class="text-sm sm:text-base text-[#42506B] leading-relaxed">
+                    Antes de contactar con Paris Magic Plan teníamos mil pestañas abiertas y miedo de no llegar a todo con dos niños pequeños. Gracias al itinerario día a día pudimos desayunar con personajes, subir a todas nuestras atracciones favoritas y descansar justo cuando los peques lo necesitaban.
+                  </p>
+                </div>
+                <div class="mt-8 pt-4 border-t border-[#1E3264]/10 space-y-1">
+                  <div class="font-serif text-lg font-semibold text-[#1E3264]">Familia García-Mendoza</div>
+                  <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-[#42506B]">
+                    <span>Madrid · Viaje de 4 días en Primavera</span>
+                    <span aria-hidden="true">·</span>
+                    <span>2 adultos y 2 niños (4 y 7 años)</span>
+                    <span aria-hidden="true">·</span>
+                    <span class="font-semibold text-[#EB539F]">Plan Magia Completa</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Testimonio 2 -->
+              <article class="bg-[#EBF3FC]/85 border border-[#1E3264]/10 rounded-3xl p-7 sm:p-9 flex flex-col justify-between">
+                <div class="space-y-5">
+                  <div class="flex flex-wrap items-center justify-between gap-2 pb-4 border-b border-[#1E3264]/10 text-xs text-[#42506B]">
+                    <span class="font-mono font-semibold text-[#EB539F] tabular-nums">Testimonio Real 02 / 04</span>
+                    <div class="flex items-center gap-1.5">
+                      <span class="text-[#C59B52]" aria-hidden="true">★★★★★</span>
+                      <span class="font-semibold text-[#1E3264] tabular-nums">5.0 / 5 · Valoración familiar</span>
+                    </div>
+                  </div>
+                  <div data-client-marker class="hidden pb-4 border-b border-dashed border-[#EB539F]/60 text-xs space-y-1">
+                    <p class="font-semibold text-[#EB539F]">[Marcador: Testimonio Real #2 — Sustituir por nombre, foto/datos y reseña real del cliente]</p>
+                    <p class="text-[#42506B]">Espacio reservado para el segundo testimonio verificado del cliente. Estructura preparada para destacar el ahorro de tiempo y éxito en reservas gastronómicas.</p>
+                  </div>
+                  <h3 class="font-serif text-2xl font-semibold text-[#1E3264] leading-snug">
+                    «La recomendación sobre el hotel y la estrategia para ver el espectáculo nocturno valieron cada euro del plan»
+                  </h3>
+                  <p class="text-sm sm:text-base text-[#42506B] leading-relaxed">
+                    No sabíamos si coger pensión completa ni cómo conseguir mesa en Chez Rémy. Nos guiaron con una cercanía increíble, ahorramos casi 300 € en la elección del hotel respecto a lo que íbamos a reservar por nuestra cuenta y el dossier en el móvil fue nuestra brújula todo el viaje.
+                  </p>
+                </div>
+                <div class="mt-8 pt-4 border-t border-[#1E3264]/10 space-y-1">
+                  <div class="font-serif text-lg font-semibold text-[#1E3264]">Laura, Carlos y pequeña Sofía</div>
+                  <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-[#42506B]">
+                    <span>Valencia · Primer viaje a Disneyland Paris</span>
+                    <span aria-hidden="true">·</span>
+                    <span>2 adultos y 1 niña (5 años)</span>
+                    <span aria-hidden="true">·</span>
+                    <span class="font-semibold text-[#EB539F]">Plan Magia Completa</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Testimonio 3 -->
+              <article class="bg-[#F2EEFA]/85 border border-[#1E3264]/10 rounded-3xl p-7 sm:p-9 flex flex-col justify-between">
+                <div class="space-y-5">
+                  <div class="flex flex-wrap items-center justify-between gap-2 pb-4 border-b border-[#1E3264]/10 text-xs text-[#42506B]">
+                    <span class="font-mono font-semibold text-[#EB539F] tabular-nums">Testimonio Real 03 / 04</span>
+                    <div class="flex items-center gap-1.5">
+                      <span class="text-[#C59B52]" aria-hidden="true">★★★★★</span>
+                      <span class="font-semibold text-[#1E3264] tabular-nums">5.0 / 5 · Valoración familiar</span>
+                    </div>
+                  </div>
+                  <div data-client-marker class="hidden pb-4 border-b border-dashed border-[#EB539F]/60 text-xs space-y-1">
+                    <p class="font-semibold text-[#EB539F]">[Marcador: Testimonio Real #3 — Sustituir por nombre, foto/datos y reseña real del cliente]</p>
+                    <p class="text-[#42506B]">Espacio reservado para el tercer testimonio verificado del cliente. Ideal para reflejar un viaje multigeneracional o combinado con la ciudad de París.</p>
+                  </div>
+                  <h3 class="font-serif text-2xl font-semibold text-[#1E3264] leading-snug">
+                    «Coordinar a seis personas de distintas edades parecía imposible hasta que vimos nuestro plan personalizado»
+                  </h3>
+                  <p class="text-sm sm:text-base text-[#42506B] leading-relaxed">
+                    Queríamos combinar tres días en Disney con dos días visitando París con los abuelos y los niños. El ritmo que nos diseñaron fue tan equilibrado que nadie acabó agotado, los traslados fueron comodísimos y todos tuvimos nuestros momentos mágicos.
+                  </p>
+                </div>
+                <div class="mt-8 pt-4 border-t border-[#1E3264]/10 space-y-1">
+                  <div class="font-serif text-lg font-semibold text-[#1E3264]">Familia Etxebarria (Abuelos, padres y nietos)</div>
+                  <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-[#42506B]">
+                    <span>Bilbao · Viaje familiar de 5 días</span>
+                    <span aria-hidden="true">·</span>
+                    <span>6 personas (3 generaciones)</span>
+                    <span aria-hidden="true">·</span>
+                    <span class="font-semibold text-[#EB539F]">Plan Étoile VIP</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Testimonio 4 -->
+              <article class="bg-white border border-[#1E3264]/10 rounded-3xl p-7 sm:p-9 flex flex-col justify-between">
+                <div class="space-y-5">
+                  <div class="flex flex-wrap items-center justify-between gap-2 pb-4 border-b border-[#1E3264]/10 text-xs text-[#42506B]">
+                    <span class="font-mono font-semibold text-[#EB539F] tabular-nums">Testimonio Real 04 / 04</span>
+                    <div class="flex items-center gap-1.5">
+                      <span class="text-[#C59B52]" aria-hidden="true">★★★★★</span>
+                      <span class="font-semibold text-[#1E3264] tabular-nums">5.0 / 5 · Valoración familiar</span>
+                    </div>
+                  </div>
+                  <div data-client-marker class="hidden pb-4 border-b border-dashed border-[#EB539F]/60 text-xs space-y-1">
+                    <p class="font-semibold text-[#EB539F]">[Marcador: Testimonio Real #4 — Sustituir por nombre, foto/datos y reseña real del cliente]</p>
+                    <p class="text-[#42506B]">Espacio reservado para el cuarto testimonio verificado del cliente. Preparado para destacar la optimización de días intensos en temporada alta o Navidad/Halloween.</p>
+                  </div>
+                  <h3 class="font-serif text-2xl font-semibold text-[#1E3264] leading-snug">
+                    «Incluso viajando en pleno diciembre con el parque lleno, supimos exactamente dónde ir en cada franja horaria»
+                  </h3>
+                  <p class="text-sm sm:text-base text-[#42506B] leading-relaxed">
+                    Ya teníamos el hotel reservado y contratamos el Plan Esencial para organizar las rutas. Fue la mejor decisión: mientras la mayoría de la gente esperaba 75 minutos en las atracciones principales, nosotros seguimos el orden del dossier y aprovechamos el Extra Magic Time al máximo.
+                  </p>
+                </div>
+                <div class="mt-8 pt-4 border-t border-[#1E3264]/10 space-y-1">
+                  <div class="font-serif text-lg font-semibold text-[#1E3264]">Marta y Javier con Lucas y Mateo</div>
+                  <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-[#42506B]">
+                    <span>Sevilla · Escapada en temporada de Navidad</span>
+                    <span aria-hidden="true">·</span>
+                    <span>2 adultos y 2 niños (8 y 11 años)</span>
+                    <span aria-hidden="true">·</span>
+                    <span class="font-semibold text-[#EB539F]">Plan Esencial</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- =====================================================================
+             8. SECCIÓN LUMINOSA — BLOQUE DE ARTÍCULOS DESTACADOS DEL BLOG
+             ===================================================================== -->
+        <section id="blog" class="py-20 md:py-28 bg-[#FAFBFD]">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-14">
+              <div class="max-w-2xl space-y-4">
+                <div class="flex items-center gap-2 text-xs text-[#EB539F] font-semibold">
+                  <span>Blog y Guías Prácticas</span>
+                  <span aria-hidden="true">·</span>
+                  <span class="text-[#96702B]">Artículos destacados sobre Disneyland Paris</span>
+                </div>
+                <h2 class="font-serif text-3xl sm:text-4xl lg:text-[42px] font-semibold text-[#1E3264] leading-tight">
+                  Consejos expertos para empezar a soñar y preparar vuestra visita
+                </h2>
+                <p class="text-base text-[#42506B] leading-relaxed">
+                  Explora nuestras guías sobre horarios, restaurantes temáticos y trucos para viajar en familia a Disneyland Paris.
+                </p>
+              </div>
+
+              <!-- Filtro de Categorías del Blog -->
+              <div role="tablist" aria-label="Filtrar artículos del blog por temática" class="flex flex-wrap items-center gap-3 self-start">
+                <button type="button" role="tab" aria-selected="true" data-blog-filter="Todos" class="btn-logo-tab-active px-4 py-2 text-xs font-semibold">Todos</button>
+                <button type="button" role="tab" aria-selected="false" data-blog-filter="Planificación" class="btn-logo-tab px-4 py-2 text-xs font-semibold">Planificación</button>
+                <button type="button" role="tab" aria-selected="false" data-blog-filter="Gastronomía" class="btn-logo-tab px-4 py-2 text-xs font-semibold">Gastronomía</button>
+                <button type="button" role="tab" aria-selected="false" data-blog-filter="Atracciones en Familia" class="btn-logo-tab px-4 py-2 text-xs font-semibold">Atracciones en Familia</button>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <!-- Artículo 1 -->
+              <article data-blog-category="Planificación" class="bg-white rounded-3xl border border-[#1E3264]/10 overflow-hidden flex flex-col justify-between hover:border-[#EB539F]/60 transition-colors group">
+                <div>
+                  <div class="relative aspect-[4/3] w-full overflow-hidden bg-[#EBF3FC]">
+                    <img
+                      src="./assets/images/hero_disneyland_family_1791448790088.jpg"
+                      alt="Castillo de Disneyland Paris iluminado por la luz dorada de la mañana"
+                      loading="lazy"
+                      referrerpolicy="no-referrer"
+                      class="w-full h-full object-cover transition-transform duration-200 group-hover:scale-[1.02]"
+                    />
+                  </div>
+                  <div class="p-6 sm:p-7 space-y-4">
+                    <div class="flex flex-wrap items-center gap-2 text-xs text-[#42506B]">
+                      <span class="font-semibold text-[#EB539F]">Planificación</span>
+                      <span aria-hidden="true">·</span>
+                      <span>Guía actualizada · Temporada 2026</span>
+                      <span aria-hidden="true">·</span>
+                      <span class="tabular-nums">6 min de lectura</span>
+                    </div>
+                    <p data-client-marker class="hidden text-xs text-[#EB539F]">[Marcador Blog #1: Sustituir o enlazar con artículo real del cliente]</p>
+                    <h3 class="font-serif text-2xl font-semibold text-[#1E3264] leading-snug group-hover:text-[#EB539F] transition-colors">
+                      Cómo aprovechar el Extra Magic Time en Disneyland Paris sin agotar a los niños a primera hora
+                    </h3>
+                    <p class="text-sm text-[#42506B] leading-relaxed">
+                      Entrar una hora antes al parque es una de las mayores ventajas de los Hoteles Disney, pero elegir la atracción equivocada puede hacerte perder esa ventaja. Te contamos qué zonas abren y cómo trazar tus primeros 60 minutos.
+                    </p>
+                  </div>
+                </div>
+                <div class="px-6 sm:px-7 pb-7 pt-4 border-t border-[#1E3264]/10">
+                  <button type="button" data-open-article="blog-1" class="w-full btn-logo-secondary py-2.5 px-5 text-xs font-semibold">
+                    <span>Leer artículo completo</span>
+                    <svg class="w-3.5 h-3.5 text-[#EB539F]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+                  </button>
+                </div>
+              </article>
+
+              <!-- Artículo 2 -->
+              <article data-blog-category="Gastronomía" class="bg-white rounded-3xl border border-[#1E3264]/10 overflow-hidden flex flex-col justify-between hover:border-[#EB539F]/60 transition-colors group">
+                <div>
+                  <div class="relative aspect-[4/3] w-full overflow-hidden bg-[#EBF3FC]">
+                    <img
+                      src="./assets/images/blog_dining_experiences_1791448836039.jpg"
+                      alt="Interior luminoso y elegante de restaurante familiar en París con detalles dorados y azul pastel"
+                      loading="lazy"
+                      referrerpolicy="no-referrer"
+                      class="w-full h-full object-cover transition-transform duration-200 group-hover:scale-[1.02]"
+                    />
+                  </div>
+                  <div class="p-6 sm:p-7 space-y-4">
+                    <div class="flex flex-wrap items-center gap-2 text-xs text-[#42506B]">
+                      <span class="font-semibold text-[#EB539F]">Gastronomía</span>
+                      <span aria-hidden="true">·</span>
+                      <span>Guía gastronómica · Disneyland Paris</span>
+                      <span aria-hidden="true">·</span>
+                      <span class="tabular-nums">5 min de lectura</span>
+                    </div>
+                    <p data-client-marker class="hidden text-xs text-[#EB539F]">[Marcador Blog #2: Sustituir o enlazar con artículo real del cliente]</p>
+                    <h3 class="font-serif text-2xl font-semibold text-[#1E3264] leading-snug group-hover:text-[#EB539F] transition-colors">
+                      Restaurantes en Disneyland Paris: cuáles merecen reserva anticipada y cuándo compensa el Plan de Comidas
+                    </h3>
+                    <p class="text-sm text-[#42506B] leading-relaxed">
+                      Desde comer dentro de la película Ratatouille hasta compartir mesa con las Princesas Disney. Analizamos las diferencias entre servicio de mesa, buffet libre y comida rápida para que aciertes con tu presupuesto.
+                    </p>
+                  </div>
+                </div>
+                <div class="px-6 sm:px-7 pb-7 pt-4 border-t border-[#1E3264]/10">
+                  <button type="button" data-open-article="blog-2" class="w-full btn-logo-secondary py-2.5 px-5 text-xs font-semibold">
+                    <span>Leer artículo completo</span>
+                    <svg class="w-3.5 h-3.5 text-[#EB539F]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+                  </button>
+                </div>
+              </article>
+
+              <!-- Artículo 3 -->
+              <article data-blog-category="Atracciones en Familia" class="bg-white rounded-3xl border border-[#1E3264]/10 overflow-hidden flex flex-col justify-between hover:border-[#EB539F]/60 transition-colors group">
+                <div>
+                  <div class="relative aspect-[4/3] w-full overflow-hidden bg-[#EBF3FC]">
+                    <img
+                      src="./assets/images/blog_family_attractions_1791448849975.jpg"
+                      alt="Carrusel clásico de cuento en Disneyland Paris bajo un cielo azul pastel luminoso"
+                      loading="lazy"
+                      referrerpolicy="no-referrer"
+                      class="w-full h-full object-cover transition-transform duration-200 group-hover:scale-[1.02]"
+                    />
+                  </div>
+                  <div class="p-6 sm:p-7 space-y-4">
+                    <div class="flex flex-wrap items-center gap-2 text-xs text-[#42506B]">
+                      <span class="font-semibold text-[#EB539F]">Atracciones en Familia</span>
+                      <span aria-hidden="true">·</span>
+                      <span>Viajar en familia · Consejos prácticos</span>
+                      <span aria-hidden="true">·</span>
+                      <span class="tabular-nums">7 min de lectura</span>
+                    </div>
+                    <p data-client-marker class="hidden text-xs text-[#EB539F]">[Marcador Blog #3: Sustituir o enlazar con artículo real del cliente]</p>
+                    <h3 class="font-serif text-2xl font-semibold text-[#1E3264] leading-snug group-hover:text-[#EB539F] transition-colors">
+                      Viajar a Disneyland Paris con niños pequeños: Baby Switch, alturas mínimas y rincones de calma
+                    </h3>
+                    <p class="text-sm text-[#42506B] leading-relaxed">
+                      Disneyland Paris está lleno de detalles pensados para los más pequeños que pasan desapercibidos en una primera visita. Descubre cómo turnaros los adultos sin repetir cola y dónde descansar del bullicio.
+                    </p>
+                  </div>
+                </div>
+                <div class="px-6 sm:px-7 pb-7 pt-4 border-t border-[#1E3264]/10">
+                  <button type="button" data-open-article="blog-3" class="w-full btn-logo-secondary py-2.5 px-5 text-xs font-semibold">
+                    <span>Leer artículo completo</span>
+                    <svg class="w-3.5 h-3.5 text-[#EB539F]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- =====================================================================
+             9. SECCIÓN LUMINOSA — PREGUNTAS FRECUENTES (Acordeones Accesibles)
+             ===================================================================== -->
+        <section
+          id="faq"
+          class="py-20 md:py-28 bg-gradient-to-b from-[#FAFBFD] via-[#EBF3FC]/35 to-[#FAFBFD]"
+        >
+          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+              <div class="space-y-3 max-w-2xl">
+                <div class="flex items-center gap-2 text-xs text-[#EB539F] font-semibold">
+                  <span>Preguntas Frecuentes (FAQ)</span>
+                  <span aria-hidden="true">·</span>
+                  <span class="text-[#96702B]">Resolvemos tus dudas sobre Paris Magic Plan</span>
+                </div>
+                <h2 class="font-serif text-3xl sm:text-4xl font-semibold text-[#1E3264] leading-tight">
+                  Todo lo que necesitas saber antes de empezar a planificar
+                </h2>
+              </div>
+
+              <div class="flex flex-wrap items-center gap-3">
+                <button type="button" data-faq-filter="Todas" class="btn-logo-tab-active px-3.5 py-1.5 text-xs font-semibold">Todas</button>
+                <button type="button" data-faq-filter="Servicio" class="btn-logo-tab px-3.5 py-1.5 text-xs font-semibold">Servicio</button>
+                <button type="button" data-faq-filter="Reservas" class="btn-logo-tab px-3.5 py-1.5 text-xs font-semibold">Reservas</button>
+                <button type="button" data-faq-filter="En el Parque" class="btn-logo-tab px-3.5 py-1.5 text-xs font-semibold">En el Parque</button>
+                <button id="toggle-all-faqs-btn" type="button" class="btn-logo-secondary px-4 py-1.5 text-xs font-semibold">
+                  Expandir todas
+                </button>
+              </div>
+            </div>
+
+            <div class="space-y-4">
+              <!-- FAQ 1 -->
+              <div data-faq-card data-faq-category="Servicio" class="faq-card-open rounded-3xl bg-white border border-[#1E3264]/12 transition-colors duration-150">
+                <h3>
+                  <button
+                    id="faq-btn-1"
+                    type="button"
+                    data-faq-toggle
+                    aria-expanded="true"
+                    aria-controls="faq-panel-1"
+                    class="w-full text-left px-6 py-5 sm:px-8 sm:py-6 flex items-start justify-between gap-4 rounded-3xl cursor-pointer"
+                  >
+                    <div class="space-y-1">
+                      <div class="flex items-center gap-2 text-xs text-[#42506B]">
+                        <span class="font-mono font-semibold text-[#EB539F] tabular-nums">01.</span>
+                        <span>Categoría: Servicio</span>
+                      </div>
+                      <span class="block font-serif text-xl sm:text-2xl font-semibold text-[#1E3264] leading-snug">
+                        ¿Qué incluye exactamente Paris Magic Plan y en qué se diferencia de una agencia tradicional?
+                      </span>
+                    </div>
+                    <span data-faq-icon class="faq-icon-open mt-1 inline-flex items-center justify-center w-9 h-9 rounded-full border-2 border-[#1E3264] shadow-[0_0_0_1.5px_#ffffff,0_0_0_3px_#EB539F] bg-white text-[#1E3264] shrink-0 transition-transform duration-150">
+                      <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6" /></svg>
+                    </span>
+                  </button>
+                </h3>
+                <div id="faq-panel-1" data-faq-panel role="region" aria-labelledby="faq-btn-1" class="px-6 pb-6 sm:px-8 sm:pb-7 pt-2 border-t border-[#1E3264]/10 space-y-3">
+                  <p class="text-sm sm:text-base text-[#42506B] leading-relaxed">
+                    A diferencia de una agencia tradicional que únicamente emite un bono de hotel y avión, en Paris Magic Plan diseñamos la experiencia real dentro del destino. Analizamos el perfil de tu familia y creamos un itinerario personalizado día por día, hora a hora, con rutas optimizadas para evitar colas, estrategia de reservas de restaurantes, horarios de espectáculos y asesoramiento experto e independiente.
+                  </p>
+                  <p class="text-xs text-[#EB539F] font-semibold">
+                    Nota práctica: Puedes contratar nuestra planificación tanto si aún no has reservado nada como si ya tienes tus entradas y hotel.
+                  </p>
+                </div>
+              </div>
+
+              <!-- FAQ 2 -->
+              <div data-faq-card data-faq-category="Servicio" class="faq-card-open rounded-3xl bg-white border border-[#1E3264]/12 transition-colors duration-150">
+                <h3>
+                  <button
+                    id="faq-btn-2"
+                    type="button"
+                    data-faq-toggle
+                    aria-expanded="true"
+                    aria-controls="faq-panel-2"
+                    class="w-full text-left px-6 py-5 sm:px-8 sm:py-6 flex items-start justify-between gap-4 rounded-3xl cursor-pointer"
+                  >
+                    <div class="space-y-1">
+                      <div class="flex items-center gap-2 text-xs text-[#42506B]">
+                        <span class="font-mono font-semibold text-[#EB539F] tabular-nums">02.</span>
+                        <span>Categoría: Servicio</span>
+                      </div>
+                      <span class="block font-serif text-xl sm:text-2xl font-semibold text-[#1E3264] leading-snug">
+                        ¿Con cuánta antelación es recomendable contratar la planificación del viaje?
+                      </span>
+                    </div>
+                    <span data-faq-icon class="faq-icon-open mt-1 inline-flex items-center justify-center w-9 h-9 rounded-full border-2 border-[#1E3264] shadow-[0_0_0_1.5px_#ffffff,0_0_0_3px_#EB539F] bg-white text-[#1E3264] shrink-0 transition-transform duration-150">
+                      <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6" /></svg>
+                    </span>
+                  </button>
+                </h3>
+                <div id="faq-panel-2" data-faq-panel role="region" aria-labelledby="faq-btn-2" class="px-6 pb-6 sm:px-8 sm:pb-7 pt-2 border-t border-[#1E3264]/10 space-y-3">
+                  <p class="text-sm sm:text-base text-[#42506B] leading-relaxed">
+                    Lo ideal es comenzar entre 2 y 6 meses antes de la fecha del viaje, ya que eso nos permite elegir los mejores alojamientos al mejor precio y asegurar mesa en los restaurantes más solicitados en cuanto abren su agenda. Sin embargo, si tu viaje es dentro de pocas semanas, también podemos diseñar tu ruta optimizada en los parques con nuestros planes de entrega ágil.
+                  </p>
+                  <p class="text-xs text-[#EB539F] font-semibold">
+                    Nota práctica: Consulta disponibilidad para viajes con menos de 15 días de antelación.
+                  </p>
+                </div>
+              </div>
+
+              <!-- FAQ 3 -->
+              <div data-faq-card data-faq-category="Reservas" class="rounded-3xl bg-white border border-[#1E3264]/12 transition-colors duration-150">
+                <h3>
+                  <button
+                    id="faq-btn-3"
+                    type="button"
+                    data-faq-toggle
+                    aria-expanded="false"
+                    aria-controls="faq-panel-3"
+                    class="w-full text-left px-6 py-5 sm:px-8 sm:py-6 flex items-start justify-between gap-4 rounded-3xl cursor-pointer"
+                  >
+                    <div class="space-y-1">
+                      <div class="flex items-center gap-2 text-xs text-[#42506B]">
+                        <span class="font-mono font-semibold text-[#EB539F] tabular-nums">03.</span>
+                        <span>Categoría: Reservas</span>
+                      </div>
+                      <span class="block font-serif text-xl sm:text-2xl font-semibold text-[#1E3264] leading-snug">
+                        ¿Vosotros realizáis las reservas de hotel y entradas o las hacemos nosotros?
+                      </span>
+                    </div>
+                    <span data-faq-icon class="mt-1 inline-flex items-center justify-center w-9 h-9 rounded-full border-2 border-[#1E3264] shadow-[0_0_0_1.5px_#ffffff,0_0_0_3px_#EB539F] bg-white text-[#1E3264] shrink-0 transition-transform duration-150">
+                      <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6" /></svg>
+                    </span>
+                  </button>
+                </h3>
+                <div id="faq-panel-3" data-faq-panel role="region" aria-labelledby="faq-btn-3" class="hidden px-6 pb-6 sm:px-8 sm:pb-7 pt-2 border-t border-[#1E3264]/10 space-y-3">
+                  <p class="text-sm sm:text-base text-[#42506B] leading-relaxed">
+                    Nosotros estudiamos todas las opciones disponibles, comparamos precios reales y te entregamos la propuesta exacta más ventajosa con enlaces e instrucciones paso a paso para que realices el pago directamente en los canales oficiales a tu nombre, sin recargos ocultos ni intermediarios. En cuanto a restaurantes y reservas del parque, te guiamos y acompañamos según la modalidad de plan elegida.
+                  </p>
+                  <p class="text-xs text-[#EB539F] font-semibold">
+                    Nota práctica: Asesoría 100% transparente centrada en el ahorro de tu familia.
+                  </p>
+                </div>
+              </div>
+
+              <!-- FAQ 4 -->
+              <div data-faq-card data-faq-category="En el Parque" class="rounded-3xl bg-white border border-[#1E3264]/12 transition-colors duration-150">
+                <h3>
+                  <button
+                    id="faq-btn-4"
+                    type="button"
+                    data-faq-toggle
+                    aria-expanded="false"
+                    aria-controls="faq-panel-4"
+                    class="w-full text-left px-6 py-5 sm:px-8 sm:py-6 flex items-start justify-between gap-4 rounded-3xl cursor-pointer"
+                  >
+                    <div class="space-y-1">
+                      <div class="flex items-center gap-2 text-xs text-[#42506B]">
+                        <span class="font-mono font-semibold text-[#EB539F] tabular-nums">04.</span>
+                        <span>Categoría: En el Parque</span>
+                      </div>
+                      <span class="block font-serif text-xl sm:text-2xl font-semibold text-[#1E3264] leading-snug">
+                        ¿Realmente se nota el ahorro de tiempo en las colas siguiendo el itinerario?
+                      </span>
+                    </div>
+                    <span data-faq-icon class="mt-1 inline-flex items-center justify-center w-9 h-9 rounded-full border-2 border-[#1E3264] shadow-[0_0_0_1.5px_#ffffff,0_0_0_3px_#EB539F] bg-white text-[#1E3264] shrink-0 transition-transform duration-150">
+                      <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6" /></svg>
+                    </span>
+                  </button>
+                </h3>
+                <div id="faq-panel-4" data-faq-panel role="region" aria-labelledby="faq-btn-4" class="hidden px-6 pb-6 sm:px-8 sm:pb-7 pt-2 border-t border-[#1E3264]/10 space-y-3">
+                  <p class="text-sm sm:text-base text-[#42506B] leading-relaxed">
+                    Sí, de forma drástica. En Disneyland Paris los flujos de visitantes siguen patrones muy marcados por franjas horarias y zonas. Al saber qué atracciones visitar en los primeros 45 minutos, cuándo cambiar de parque, cuándo utilizar Single Rider o en qué momento puntual compensa un Disney Premier Access individual, una familia ahorra fácilmente entre 2 y 4 horas de espera al día.
+                  </p>
+                  <p class="text-xs text-[#EB539F] font-semibold">
+                    Nota práctica: Nuestras rutas nunca te obligan a correr: están pensadas para caminar menos y disfrutar más.
+                  </p>
+                </div>
+              </div>
+
+              <!-- FAQ 5 -->
+              <div data-faq-card data-faq-category="En el Parque" class="rounded-3xl bg-white border border-[#1E3264]/12 transition-colors duration-150">
+                <h3>
+                  <button
+                    id="faq-btn-5"
+                    type="button"
+                    data-faq-toggle
+                    aria-expanded="false"
+                    aria-controls="faq-panel-5"
+                    class="w-full text-left px-6 py-5 sm:px-8 sm:py-6 flex items-start justify-between gap-4 rounded-3xl cursor-pointer"
+                  >
+                    <div class="space-y-1">
+                      <div class="flex items-center gap-2 text-xs text-[#42506B]">
+                        <span class="font-mono font-semibold text-[#EB539F] tabular-nums">05.</span>
+                        <span>Categoría: En el Parque</span>
+                      </div>
+                      <span class="block font-serif text-xl sm:text-2xl font-semibold text-[#1E3264] leading-snug">
+                        Viajamos con bebés o niños muy pequeños, ¿el plan se adapta a su ritmo?
+                      </span>
+                    </div>
+                    <span data-faq-icon class="mt-1 inline-flex items-center justify-center w-9 h-9 rounded-full border-2 border-[#1E3264] shadow-[0_0_0_1.5px_#ffffff,0_0_0_3px_#EB539F] bg-white text-[#1E3264] shrink-0 transition-transform duration-150">
+                      <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6" /></svg>
+                    </span>
+                  </button>
+                </h3>
+                <div id="faq-panel-5" data-faq-panel role="region" aria-labelledby="faq-btn-5" class="hidden px-6 pb-6 sm:px-8 sm:pb-7 pt-2 border-t border-[#1E3264]/10 space-y-3">
+                  <p class="text-sm sm:text-base text-[#42506B] leading-relaxed">
+                    Absolutamente. Es una de nuestras grandes especialidades. Adaptamos el itinerario incluyendo pausas para siestas o descanso, ubicación de salas de lactancia y cambiadores (Baby Care Centers), atracciones sin restricción de altura, uso del sistema Baby Switch para los padres y restaurantes con opciones cómodas para los más pequeños.
+                  </p>
+                  <p class="text-xs text-[#EB539F] font-semibold">
+                    Nota práctica: Cada plan se construye desde cero según las edades exactas de vuestros hijos.
+                  </p>
+                </div>
+              </div>
+
+              <!-- FAQ 6 -->
+              <div data-faq-card data-faq-category="Reservas" class="rounded-3xl bg-white border border-[#1E3264]/12 transition-colors duration-150">
+                <h3>
+                  <button
+                    id="faq-btn-6"
+                    type="button"
+                    data-faq-toggle
+                    aria-expanded="false"
+                    aria-controls="faq-panel-6"
+                    class="w-full text-left px-6 py-5 sm:px-8 sm:py-6 flex items-start justify-between gap-4 rounded-3xl cursor-pointer"
+                  >
+                    <div class="space-y-1">
+                      <div class="flex items-center gap-2 text-xs text-[#42506B]">
+                        <span class="font-mono font-semibold text-[#EB539F] tabular-nums">06.</span>
+                        <span>Categoría: Reservas</span>
+                      </div>
+                      <span class="block font-serif text-xl sm:text-2xl font-semibold text-[#1E3264] leading-snug">
+                        ¿Qué ocurre si Disneyland Paris cambia horarios o cierra alguna atracción antes de nuestro viaje?
+                      </span>
+                    </div>
+                    <span data-faq-icon class="mt-1 inline-flex items-center justify-center w-9 h-9 rounded-full border-2 border-[#1E3264] shadow-[0_0_0_1.5px_#ffffff,0_0_0_3px_#EB539F] bg-white text-[#1E3264] shrink-0 transition-transform duration-150">
+                      <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6" /></svg>
+                    </span>
+                  </button>
+                </h3>
+                <div id="faq-panel-6" data-faq-panel role="region" aria-labelledby="faq-btn-6" class="hidden px-6 pb-6 sm:px-8 sm:pb-7 pt-2 border-t border-[#1E3264]/10 space-y-3">
+                  <p class="text-sm sm:text-base text-[#42506B] leading-relaxed">
+                    Disneyland Paris publica el calendario oficial definitivo de espectáculos y cierres por mantenimiento de forma progresiva. Por eso, en nuestros planes revisamos tu itinerario antes de tu salida para reajustar cualquier horario de cabalgata, show o atracción y asegurarnos de que lleves la versión 100% actualizada.
+                  </p>
+                  <p class="text-xs text-[#EB539F] font-semibold">
+                    Nota práctica: Además, incluimos siempre alternativas (Plan B) por si llueve o cambia el tiempo en París.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =====================================================================
+             10. LLAMADA A LA ACCIÓN EMOCIONAL FINAL Y SOLICITUD DE CONTACTO REAL
+             ===================================================================== -->
+        <section
+          id="contacto"
+          class="py-20 md:py-28 bg-gradient-to-b from-[#EBF3FC]/50 via-[#F2EEFA]/60 to-[#FAFBFD] border-t border-[#1E3264]/10"
+        >
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="rounded-3xl bg-white border-2 border-[#1E3264] shadow-[0_0_0_3px_#ffffff,0_0_0_6px_#EB539F] overflow-hidden">
+              <div class="grid grid-cols-1 lg:grid-cols-12">
+                <!-- Columna Izquierda Emocional (6 cols) -->
+                <div class="lg:col-span-6 p-8 sm:p-12 bg-gradient-to-br from-[#1E3264] via-[#243B75] to-[#162347] text-white flex flex-col justify-between space-y-8">
+                  <div class="space-y-6">
+                    <div class="inline-flex items-center gap-3">
+                      <svg width="54" height="54" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo de Paris Magic Plan" class="shrink-0">
+                        <rect x="100" y="62" width="300" height="376" rx="146" fill="#FFFFFF" stroke="#EB539F" stroke-width="12" />
+                        <path d="M239 152 L243.5 168.5 L260 173 L243.5 177.5 L239 194 L234.5 177.5 L218 173 L234.5 168.5 Z" fill="#1E3264" />
+                        <path d="M271 118 L275.2 133.8 L291 138 L275.2 142.2 L271 158 L266.8 142.2 L251 138 L266.8 133.8 Z" fill="#1E3264" />
+                        <path d="M343 160 L347.2 175.8 L363 180 L347.2 184.2 L343 200 L338.8 184.2 L323 180 L338.8 175.8 Z" fill="#1E3264" />
+                        <g stroke="#EB539F" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+                          <line x1="184" y1="149" x2="184" y2="157" />
+                          <path d="M175 170 C175 156, 193 156, 193 170" />
+                          <line x1="171" y1="170" x2="197" y2="170" />
+                          <path d="M175 170 C172 238, 160 305, 135 362" />
+                          <path d="M193 170 C196 238, 206 302, 223 354" />
+                          <line x1="162" y1="267" x2="206" y2="267" />
+                          <path d="M184 277 L164 342 M184 277 L204 342" />
+                          <path d="M151 372 A33 35 0 0 1 216 372" />
+                          <line x1="223" y1="313" x2="223" y2="372" />
+                          <line x1="253" y1="313" x2="253" y2="328" />
+                          <line x1="219" y1="313" x2="257" y2="313" />
+                          <path d="M222 313 Q234 286 238 256 Q242 286 254 313" />
+                          <line x1="253" y1="248" x2="253" y2="313" />
+                          <line x1="280" y1="248" x2="280" y2="265" />
+                          <line x1="250" y1="248" x2="283" y2="248" />
+                          <path d="M252 248 L261 213 L272 213 L281 248" />
+                          <line x1="288" y1="213" x2="288" y2="254" />
+                          <line x1="322" y1="213" x2="322" y2="297" />
+                          <path d="M294 197 L316 197 L325 213 L286 213 Z" />
+                          <line x1="294" y1="147" x2="294" y2="197" />
+                          <line x1="316" y1="147" x2="316" y2="197" />
+                          <line x1="290" y1="147" x2="320" y2="147" />
+                          <path d="M293 147 Q302 125 305 103 Q308 125 317 147" />
+                          <path d="M268 297 L280 256 L292 256 L304 297" />
+                          <ellipse cx="286" cy="297" rx="6.5" ry="11" fill="#FFFFFF" />
+                          <path d="M257 372 C257 344, 270 326, 286 314 C302 326, 316 344, 316 372" />
+                          <path d="M268 372 C268 350, 276 338, 286 330 C296 338, 305 350, 305 372" />
+                          <line x1="321" y1="313" x2="321" y2="340" />
+                          <line x1="351" y1="313" x2="351" y2="372" />
+                          <line x1="317" y1="313" x2="355" y2="313" />
+                          <path d="M320 313 Q332 286 336 256 Q340 286 352 313" />
+                        </g>
+                        <line x1="135" y1="372" x2="365" y2="372" stroke="#1E3264" stroke-width="8.5" stroke-linecap="round" />
+                        <line x1="207" y1="391" x2="293" y2="391" stroke="#1E3264" stroke-width="7.5" stroke-linecap="round" />
+                        <rect x="129" y="90" width="242" height="320" rx="116" fill="none" stroke="#1E3264" stroke-width="9" />
+                      </svg>
+                      <span class="font-serif text-2xl font-semibold text-white">Paris Magic Plan</span>
+                    </div>
+
+                    <div class="flex items-center gap-2 text-xs text-[#F9A8D4] tracking-wide">
+                      <span>Comienza la cuenta atrás hacia la magia</span>
+                      <span aria-hidden="true">·</span>
+                      <span>Viajes en familia</span>
+                    </div>
+
+                    <h2 class="font-serif text-3xl sm:text-4xl lg:text-[44px] font-semibold text-white leading-tight tracking-wide">
+                      Tus hijos solo serán pequeños una vez. Haz que vuestro viaje a Disneyland Paris sea inolvidable
+                    </h2>
+
+                    <p class="text-base text-[#EBF3FC]/90 leading-relaxed">
+                      Déjanos acompañarte con una planificación artesanal, serena y pensada al milímetro para que en vuestro viaje solo haya espacio para la ilusión, las risas y los abrazos frente al Castillo.
+                    </p>
+                  </div>
+
+                  <div class="space-y-4 pt-6 border-t border-white/15 text-sm">
+                    <div class="space-y-1">
+                      <p class="text-xs text-[#F9A8D4] font-semibold">Canales directos de atención al viajero:</p>
+                      <p class="text-white font-semibold">
+                        Correo:
+                        <a data-mailto-link href="mailto:hola@parismagicplan.com" class="underline decoration-[#EB539F] underline-offset-4 hover:text-[#F9A8D4] transition-colors">
+                          hola@parismagicplan.com
+                        </a>
+                      </p>
+                      <p class="text-[#EBF3FC]/85">
+                        Teléfono / WhatsApp:
+                        <a href="tel:+34600000000" class="underline decoration-[#EB539F] underline-offset-4 hover:text-[#F9A8D4] transition-colors tabular-nums">
+                          +34 600 000 000
+                        </a>
+                      </p>
+                      <p class="text-xs text-[#EBF3FC]/70">Lunes a Viernes de 9:30 a 19:00 h (Hora peninsular)</p>
+                    </div>
+                    <p data-client-marker class="hidden text-xs text-[#F9A8D4]/90 border-t border-white/10 pt-3">
+                      [Marcador de datos de contacto: Sustituir correo, teléfono/WhatsApp y enlaces de redes sociales por las credenciales definitivas del cliente]
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Columna Derecha: Preparador de Solicitud Funcional (6 cols) -->
+                <div class="lg:col-span-6 p-8 sm:p-12 space-y-6 bg-white">
+                  <div class="space-y-2 border-b border-[#1E3264]/10 pb-4">
+                    <p class="text-xs font-semibold text-[#EB539F]">Solicitud de Planificación · Acción Directa y Funcional</p>
+                    <h3 class="font-serif text-2xl sm:text-3xl font-semibold text-[#1E3264]">
+                      Prepara tu consulta personalizada en 30 segundos
+                    </h3>
+                    <p class="text-xs text-[#42506B]">
+                      Selecciona los detalles de vuestro viaje para abrir directamente tu correo con la solicitud lista o copiar el resumen para WhatsApp.
+                    </p>
+                  </div>
+
+                  <div class="space-y-4">
+                    <div>
+                      <label for="plan-select" class="block text-xs font-semibold text-[#1E3264] mb-1.5">
+                        Modalidad o servicio de interés:
+                      </label>
+                      <select
+                        id="plan-select"
+                        class="w-full px-4 py-2.5 text-sm text-[#1E3264] bg-[#FAFBFD] border border-[#1E3264]/20 rounded-full focus:outline-2 focus:outline-[#EB539F]"
+                      >
+                        <option value="Plan Esencial (49 €)">Plan Esencial (49 €)</option>
+                        <option value="Plan Magia Completa (95 €)" selected>Plan Magia Completa (95 € · Más elegido)</option>
+                        <option value="Plan Étoile VIP (165 €)">Plan Étoile VIP (165 €)</option>
+                        <option value="Sesión de Asesoría Express 1 a 1 (39 €)">Sesión de Asesoría Express 1 a 1 (39 €)</option>
+                        <option value="Estrategia y Guía de Reservas Gastronómicas (29 €)">Estrategia y Guía de Reservas Gastronómicas (29 €)</option>
+                        <option value="Módulo Extensión: París en Familia (45 €)">Módulo Extensión: París en Familia (45 €)</option>
+                      </select>
+                    </div>
+
+                    <div>
+                      <label for="season-select" class="block text-xs font-semibold text-[#1E3264] mb-1.5">
+                        Época o temporada prevista del viaje:
+                      </label>
+                      <select
+                        id="season-select"
+                        class="w-full px-4 py-2.5 text-sm text-[#1E3264] bg-[#FAFBFD] border border-[#1E3264]/20 rounded-full focus:outline-2 focus:outline-[#EB539F]"
+                      >
+                        <option value="Primavera / Verano">Primavera / Verano</option>
+                        <option value="Temporada de Halloween (Octubre - Noviembre)">Temporada de Halloween (Octubre - Noviembre)</option>
+                        <option value="Temporada de Navidad (Noviembre - Enero)">Temporada de Navidad (Noviembre - Enero)</option>
+                        <option value="Invierno / Fechas por definir">Invierno / Fechas aún por definir</option>
+                      </select>
+                    </div>
+
+                    <div>
+                      <label for="family-input" class="block text-xs font-semibold text-[#1E3264] mb-1.5">
+                        Composición familiar y edades de los niños:
+                      </label>
+                      <input
+                        id="family-input"
+                        type="text"
+                        value="2 adultos y 2 niños"
+                        placeholder="Ej. 2 adultos y 2 niños (5 y 8 años)"
+                        class="w-full px-4 py-2.5 text-sm text-[#1E3264] bg-[#FAFBFD] border border-[#1E3264]/20 rounded-full focus:outline-2 focus:outline-[#EB539F]"
+                      />
+                    </div>
+
+                    <div class="py-4 border-t border-b border-[#1E3264]/10 space-y-1.5">
+                      <p class="text-xs font-semibold text-[#1E3264]">Vista previa de tu mensaje de contacto:</p>
+                      <pre id="inquiry-message-preview" class="text-xs text-[#42506B] whitespace-pre-wrap font-sans leading-relaxed"></pre>
+                    </div>
+
+                    <div class="pt-3 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+                      <a
+                        data-mailto-link
+                        href="mailto:hola@parismagicplan.com"
+                        class="flex-1 btn-logo-primary px-6 py-3.5 text-sm font-semibold"
+                      >
+                        <span>Redactar correo con estos datos</span>
+                      </a>
+
+                      <button
+                        id="copy-inquiry-btn"
+                        type="button"
+                        class="btn-logo-secondary px-6 py-3.5 text-sm font-semibold"
+                      >
+                        <span id="copy-inquiry-label">Copiar resumen para WhatsApp</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- =====================================================================
+           11. PIE DE PÁGINA EDITORIAL
+           ===================================================================== -->
+      <footer class="bg-white border-t border-[#1E3264]/10 py-14 text-sm text-[#42506B]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+            <div class="md:col-span-5 space-y-4">
+              <a href="#inicio" data-scroll-to="#inicio" class="inline-flex items-center gap-3">
+                <svg width="48" height="48" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo de Paris Magic Plan" class="shrink-0">
+                  <rect x="100" y="62" width="300" height="376" rx="146" fill="#FFFFFF" stroke="#EB539F" stroke-width="12" />
+                  <path d="M239 152 L243.5 168.5 L260 173 L243.5 177.5 L239 194 L234.5 177.5 L218 173 L234.5 168.5 Z" fill="#1E3264" />
+                  <path d="M271 118 L275.2 133.8 L291 138 L275.2 142.2 L271 158 L266.8 142.2 L251 138 L266.8 133.8 Z" fill="#1E3264" />
+                  <path d="M343 160 L347.2 175.8 L363 180 L347.2 184.2 L343 200 L338.8 184.2 L323 180 L338.8 175.8 Z" fill="#1E3264" />
+                  <g stroke="#EB539F" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="184" y1="149" x2="184" y2="157" />
+                    <path d="M175 170 C175 156, 193 156, 193 170" />
+                    <line x1="171" y1="170" x2="197" y2="170" />
+                    <path d="M175 170 C172 238, 160 305, 135 362" />
+                    <path d="M193 170 C196 238, 206 302, 223 354" />
+                    <line x1="162" y1="267" x2="206" y2="267" />
+                    <path d="M184 277 L164 342 M184 277 L204 342" />
+                    <path d="M151 372 A33 35 0 0 1 216 372" />
+                    <line x1="223" y1="313" x2="223" y2="372" />
+                    <line x1="253" y1="313" x2="253" y2="328" />
+                    <line x1="219" y1="313" x2="257" y2="313" />
+                    <path d="M222 313 Q234 286 238 256 Q242 286 254 313" />
+                    <line x1="253" y1="248" x2="253" y2="313" />
+                    <line x1="280" y1="248" x2="280" y2="265" />
+                    <line x1="250" y1="248" x2="283" y2="248" />
+                    <path d="M252 248 L261 213 L272 213 L281 248" />
+                    <line x1="288" y1="213" x2="288" y2="254" />
+                    <line x1="322" y1="213" x2="322" y2="297" />
+                    <path d="M294 197 L316 197 L325 213 L286 213 Z" />
+                    <line x1="294" y1="147" x2="294" y2="197" />
+                    <line x1="316" y1="147" x2="316" y2="197" />
+                    <line x1="290" y1="147" x2="320" y2="147" />
+                    <path d="M293 147 Q302 125 305 103 Q308 125 317 147" />
+                    <path d="M268 297 L280 256 L292 256 L304 297" />
+                    <ellipse cx="286" cy="297" rx="6.5" ry="11" fill="#FFFFFF" />
+                    <path d="M257 372 C257 344, 270 326, 286 314 C302 326, 316 344, 316 372" />
+                    <path d="M268 372 C268 350, 276 338, 286 330 C296 338, 305 350, 305 372" />
+                    <line x1="321" y1="313" x2="321" y2="340" />
+                    <line x1="351" y1="313" x2="351" y2="372" />
+                    <line x1="317" y1="313" x2="355" y2="313" />
+                    <path d="M320 313 Q332 286 336 256 Q340 286 352 313" />
+                  </g>
+                  <line x1="135" y1="372" x2="365" y2="372" stroke="#1E3264" stroke-width="8.5" stroke-linecap="round" />
+                  <line x1="207" y1="391" x2="293" y2="391" stroke="#1E3264" stroke-width="7.5" stroke-linecap="round" />
+                  <rect x="129" y="90" width="242" height="320" rx="116" fill="none" stroke="#1E3264" stroke-width="9" />
+                </svg>
+                <span class="font-serif text-2xl font-semibold text-[#1E3264]">Paris Magic Plan</span>
+              </a>
+              <p class="text-sm text-[#42506B] max-w-sm leading-relaxed">
+                Planificación personalizada de viajes y experiencias familiares en Disneyland Paris. Diseño de rutas a medida, estrategia gastronómica y acompañamiento experto.
+              </p>
+            </div>
+
+            <div class="md:col-span-3 space-y-2.5">
+              <p class="font-semibold text-[#1E3264] text-xs">Navegación Principal</p>
+              <ul class="space-y-2 text-xs">
+                <li><a href="#inicio" data-scroll-to="#inicio" class="hover:text-[#EB539F] transition-colors">Inicio</a></li>
+                <li><a href="#ventajas" data-scroll-to="#ventajas" class="hover:text-[#EB539F] transition-colors">Ventajas</a></li>
+                <li><a href="#servicios" data-scroll-to="#servicios" class="hover:text-[#EB539F] transition-colors">Servicios y Precios</a></li>
+                <li><a href="#pasos" data-scroll-to="#pasos" class="hover:text-[#EB539F] transition-colors">Los 4 Pasos</a></li>
+                <li><a href="#opiniones" data-scroll-to="#opiniones" class="hover:text-[#EB539F] transition-colors">Opiniones de Familias</a></li>
+                <li><a href="#blog" data-scroll-to="#blog" class="hover:text-[#EB539F] transition-colors">Blog y Guías</a></li>
+                <li><a href="#faq" data-scroll-to="#faq" class="hover:text-[#EB539F] transition-colors">Preguntas Frecuentes</a></li>
+              </ul>
+            </div>
+
+            <div class="md:col-span-4 space-y-2.5">
+              <p class="font-semibold text-[#1E3264] text-xs">Submenú · Planes de Planificación</p>
+              <ul class="space-y-2 text-xs">
+                <li><button type="button" data-service-filter="all" data-submenu-nav="true" class="hover:text-[#EB539F] text-left transition-colors cursor-pointer">Visión General — Todos los planes y servicios</button></li>
+                <li><button type="button" data-service-filter="planes" data-submenu-nav="true" class="hover:text-[#EB539F] text-left transition-colors cursor-pointer">Planes de Viaje — Esencial, Magia Completa y VIP</button></li>
+                <li><button type="button" data-service-filter="extras" data-submenu-nav="true" class="hover:text-[#EB539F] text-left transition-colors cursor-pointer">Servicios a la Carta — Asesoría, gastronomía y París</button></li>
+                <li><button type="button" data-service-filter="comparativa" data-submenu-nav="true" class="hover:text-[#EB539F] text-left transition-colors cursor-pointer">Tabla Comparativa — Detalle por modalidad</button></li>
+                <li><button type="button" data-service-filter="recomendador" data-submenu-nav="true" class="hover:text-[#EB539F] text-left transition-colors cursor-pointer">Asistente de Elección — Recomendador familiar</button></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="pt-8 border-t border-[#1E3264]/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs text-[#42506B]">
+            <p>© 2026 Paris Magic Plan. Todos los derechos reservados. Servicio independiente de planificación de viajes.</p>
+            <div class="flex flex-wrap items-center gap-4">
+              <button
+                id="marker-mode-btn-footer"
+                type="button"
+                data-toggle-markers
+                class="btn-logo-tab px-4 py-1.5 text-xs font-semibold"
+              >
+                Mostrar marcadores de contenido
+              </button>
+              <a href="#contacto" data-scroll-to="#contacto" class="btn-logo-primary px-4 py-1.5 text-xs font-semibold">
+                Contacto
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- =====================================================================
+           MODAL ACCESIBLE DE LECTURA DE ARTÍCULO DEL BLOG
+           ===================================================================== -->
+      <div
+        id="article-modal"
+        class="hidden fixed inset-0 z-50 items-center justify-center p-4 sm:p-6 bg-[#1E3264]/60 backdrop-blur-sm"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-article-title"
+      >
+        <div class="relative w-full max-w-3xl max-h-[90vh] overflow-y-auto bg-white rounded-3xl border-2 border-[#1E3264] shadow-[0_0_0_2px_#ffffff,0_0_0_5px_#EB539F]">
+          <div class="sticky top-0 z-10 flex items-center justify-between px-6 py-4 bg-white/95 backdrop-blur-md border-b border-[#1E3264]/10">
+            <div class="flex items-center gap-2 text-xs text-[#42506B]">
+              <span id="modal-article-category" class="font-semibold text-[#EB539F]">Planificación</span>
+              <span aria-hidden="true">·</span>
+              <span id="modal-article-date">Guía actualizada</span>
+              <span aria-hidden="true">·</span>
+              <span id="modal-article-readtime">6 min</span>
+            </div>
+            <button
+              id="close-article-modal"
+              type="button"
+              aria-label="Cerrar lectura de artículo"
+              class="btn-logo-secondary w-9 h-9 p-0"
+            >
+              ✕
+            </button>
+          </div>
+
+          <div class="p-6 sm:p-10 space-y-8">
+            <div class="space-y-4">
+              <p id="modal-article-marker" data-client-marker class="hidden text-xs text-[#EB539F]"></p>
+              <h2 id="modal-article-title" class="font-serif text-3xl sm:text-4xl font-semibold text-[#1E3264] leading-tight"></h2>
+              <p id="modal-article-excerpt" class="text-base text-[#42506B] leading-relaxed"></p>
+            </div>
+
+            <div class="relative aspect-[16/9] w-full rounded-2xl overflow-hidden bg-[#EBF3FC]">
+              <img id="modal-article-image" src="" alt="" referrerpolicy="no-referrer" class="w-full h-full object-cover" />
+            </div>
+
+            <div class="p-6 rounded-2xl bg-[#F2EEFA]/70 border border-[#1E3264]/10 space-y-3">
+              <h3 class="font-serif text-xl font-semibold text-[#1E3264]">Puntos clave de esta guía</h3>
+              <ul id="modal-article-takeaways" class="space-y-2 text-sm text-[#1E3264]"></ul>
+            </div>
+
+            <div id="modal-article-sections" class="space-y-6"></div>
+
+            <div class="pt-4 border-t border-[#1E3264]/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+              <div>
+                <p class="font-serif text-xl font-semibold text-[#1E3264]">
+                  ¿Quieres que apliquemos esta estrategia a las fechas de tu viaje?
+                </p>
+                <p class="text-sm text-[#42506B]">
+                  Diseñamos tu ruta personalizada con horarios y reservas adaptadas a tu familia.
+                </p>
+              </div>
+              <button
+                id="modal-select-plan-btn"
+                type="button"
+                class="btn-logo-primary px-6 py-3 text-sm font-semibold shrink-0"
+              >
+                <span>Ver planes de planificación</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./script.js"></script>
   </body>
 </html>
-
