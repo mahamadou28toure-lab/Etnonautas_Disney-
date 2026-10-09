@@ -94,11 +94,11 @@ export interface FaqItem {
   detailNote: string;
 }
 
-export const HERO_IMAGE = '../assets/images/hero_disneyland_family_1791448790088.jpg';
-export const PANORAMA_MAIN_STREET = '../assets/images/panorama_main_street_magic_1791448804179.jpg';
-export const PANORAMA_TWILIGHT = '../assets/images/panorama_twilight_illuminations_1791448815716.jpg';
-export const BLOG_DINING_IMAGE = '../assets/images/blog_dining_experiences_1791448836039.jpg';
-export const BLOG_ATTRACTIONS_IMAGE = '../assets/images/blog_family_attractions_1791448849975.jpg';
+export const HERO_IMAGE = 'https://etnonautasdisney-kohl.vercel.app/assets/images/hero_disneyland_family_1791448790088.jpg';
+export const PANORAMA_MAIN_STREET = 'https://etnonautasdisney-kohl.vercel.app/assets/images/panorama_main_street_magic_1791448804179.jpg';
+export const PANORAMA_TWILIGHT = 'https://etnonautasdisney-kohl.vercel.app/assets/images/panorama_twilight_illuminations_1791448815716.jpg';
+export const BLOG_DINING_IMAGE = 'https://etnonautasdisney-kohl.vercel.app/assets/images/blog_dining_experiences_1791448836039.jpg';
+export const BLOG_ATTRACTIONS_IMAGE = 'https://etnonautasdisney-kohl.vercel.app/assets/images/blog_family_attractions_1791448849975.jpg';
 
 export const MAIN_MENU = [
   { label: 'Servicios', href: '#servicios', hasSubmenu: true },
